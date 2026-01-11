@@ -1,0 +1,1201 @@
+customer_id,age,tenure_months,monthly_charges,support_calls,contract_type,payment_method,region,signup_date,churn
+1,56.0,33,117.6,1,One year,Credit Card,West,2022-05-19,0
+2,69.0,27,86.74,0,One year,Electronic Check,East,2022-03-13,0
+3,46.0,36,21.04,2,Month-to-month,Debit Card,East,2021-03-01,0
+4,32.0,29,45.54,1,Month-to-month,,West,2020-05-04,0
+5,60.0,38,46.07,3,Two year,Bank Transfer,East,2023-05-02,0
+6,,57,26.93,4,Month-to-month,Electronic Check,North,2020-02-23,1
+7,38.0,27,115.98,2,One year,Credit Card,West,2018-11-15,0
+8,56.0,55,67.83,2,Two year,Bank Transfer,East,2020-04-23,0
+9,36.0,33,109.58,3,Month-to-month,Electronic Check,West,2023-05-27,1
+10,40.0,68,52.22,1,Month-to-month,Debit Card,South,2023-02-20,0
+11,28.0,66,,1,Two year,Debit Card,West,2019-09-13,0
+12,28.0,10,67.43,4,Month-to-month,Bank Transfer,East,2020-02-24,1
+13,41.0,5,,1,Month-to-month,Credit Card,North,2021-04-06,0
+14,53.0,38,68.6,1,Month-to-month,Electronic Check,West,2019-02-01,0
+15,57.0,13,112.03,1,Month-to-month,Bank Transfer,West,2021-04-18,1
+16,41.0,31,72.08,3,One year,Debit Card,East,2020-12-17,0
+17,20.0,47,81.65,3,Two year,Credit Card,North,2022-02-12,0
+18,39.0,52,35.66,3,One year,Electronic Check,North,2023-05-11,0
+19,19.0,56,24.37,1,Month-to-month,Bank Transfer,South,2022-06-03,0
+20,41.0,15,31.08,0,Month-to-month,Electronic Check,South,2019-04-05,0
+21,61.0,29,79.85,1,One year,Credit Card,East,2018-03-02,0
+22,47.0,8,29.5,2,Month-to-month,,North,2019-01-04,0
+23,55.0,5,57.6,1,One year,Debit Card,North,2021-02-18,0
+24,19.0,29,75.01,3,Month-to-month,Credit Card,South,2019-12-20,0
+25,38.0,47,58.87,3,One year,Bank Transfer,South,2019-06-30,0
+26,50.0,68,36.37,3,Month-to-month,Electronic Check,East,2022-05-25,0
+27,29.0,45,47.38,2,Month-to-month,Credit Card,North,2020-11-06,0
+28,39.0,2,112.83,2,Month-to-month,Credit Card,West,2019-05-11,1
+29,61.0,27,87.6,1,Month-to-month,Bank Transfer,South,2019-05-12,0
+30,42.0,36,69.6,4,Month-to-month,Electronic Check,East,2019-05-20,1
+31,66.0,36,21.27,2,One year,Electronic Check,North,2022-04-05,0
+32,44.0,26,119.24,2,One year,Debit Card,North,2020-08-26,0
+33,59.0,43,87.15,2,One year,Debit Card,South,2021-08-31,0
+34,45.0,27,51.69,1,Two year,Electronic Check,East,2020-12-28,0
+35,33.0,69,107.93,1,Month-to-month,Bank Transfer,West,2022-10-17,0
+36,32.0,20,45.84,0,Month-to-month,Bank Transfer,South,2018-06-10,0
+37,64.0,11,74.4,3,Month-to-month,Debit Card,East,2022-06-26,0
+38,68.0,38,83.61,2,One year,Credit Card,North,2023-03-27,0
+39,61.0,6,42.11,2,Month-to-month,Bank Transfer,West,2019-12-19,0
+40,69.0,23,117.84,2,One year,Credit Card,East,2021-03-14,0
+41,,47,94.82,2,Month-to-month,Bank Transfer,West,2022-05-12,1
+42,54.0,46,75.78,3,Two year,Electronic Check,East,2022-06-07,0
+43,68.0,12,38.06,2,Two year,Debit Card,East,2020-09-19,0
+44,24.0,13,25.39,3,Month-to-month,Credit Card,East,2021-11-09,0
+45,38.0,62,52.01,5,Month-to-month,Credit Card,East,2018-09-26,1
+46,26.0,60,,1,One year,Electronic Check,West,2023-05-01,0
+47,56.0,43,46.93,3,Month-to-month,Bank Transfer,South,2022-01-17,0
+48,35.0,68,73.96,1,Month-to-month,Credit Card,West,2019-11-30,0
+49,21.0,5,92.79,2,One year,Bank Transfer,East,2022-03-22,0
+50,42.0,37,30.79,0,Month-to-month,Electronic Check,West,2020-05-14,0
+51,31.0,31,88.53,1,One year,Debit Card,West,2018-12-16,0
+52,67.0,9,29.19,1,One year,Credit Card,West,2018-04-20,0
+53,26.0,51,116.51,2,Month-to-month,Bank Transfer,East,2022-02-15,1
+54,43.0,29,68.84,6,Month-to-month,Credit Card,West,2019-02-11,1
+55,19.0,40,35.07,1,Month-to-month,,North,2019-10-12,0
+56,37.0,41,54.24,3,One year,Bank Transfer,East,2018-02-20,0
+57,,11,61.34,1,Month-to-month,Bank Transfer,West,2021-11-27,0
+58,64.0,23,95.82,3,Two year,Electronic Check,North,2022-05-06,0
+59,24.0,1,94.34,3,Month-to-month,Debit Card,West,2022-02-08,1
+60,,46,81.19,1,Month-to-month,Credit Card,South,2021-01-15,1
+61,25.0,21,30.59,1,Month-to-month,,West,2020-12-27,0
+62,64.0,36,35.16,3,Month-to-month,Bank Transfer,West,2019-08-19,0
+63,52.0,54,29.38,3,Month-to-month,Bank Transfer,South,2020-09-05,0
+64,31.0,57,77.72,0,Month-to-month,Debit Card,East,2020-12-01,0
+65,34.0,1,107.71,2,Month-to-month,Debit Card,South,2020-01-01,1
+66,53.0,63,63.38,3,Month-to-month,Credit Card,East,2018-02-26,0
+67,67.0,54,36.08,4,Month-to-month,Bank Transfer,South,2020-01-08,1
+68,57.0,55,75.8,2,One year,Debit Card,West,2018-07-15,0
+69,21.0,40,101.18,2,Month-to-month,Electronic Check,West,2022-11-19,1
+70,19.0,15,94.17,2,Month-to-month,Bank Transfer,East,2022-08-29,0
+71,23.0,21,108.15,1,One year,Bank Transfer,East,2020-12-21,0
+72,59.0,47,47.79,1,Month-to-month,Credit Card,North,2021-07-10,0
+73,21.0,53,39.4,1,One year,Electronic Check,North,2018-04-22,0
+74,46.0,9,107.98,4,Month-to-month,Credit Card,West,2020-02-04,1
+75,35.0,52,85.76,4,Month-to-month,Electronic Check,West,2019-12-12,1
+76,43.0,57,,2,Two year,Credit Card,North,2021-04-16,0
+77,61.0,26,94.23,0,Month-to-month,Electronic Check,North,2020-08-05,0
+78,51.0,41,101.51,4,One year,Electronic Check,East,2018-01-26,0
+79,27.0,35,81.5,2,Month-to-month,Electronic Check,South,2019-02-14,1
+80,53.0,63,88.79,7,One year,Debit Card,East,2020-01-28,1
+81,31.0,25,57.53,2,Two year,Bank Transfer,North,2019-06-15,0
+82,48.0,38,73.87,5,Month-to-month,Electronic Check,West,2022-12-06,1
+83,,2,72.42,2,One year,Debit Card,North,2021-09-02,0
+84,32.0,7,104.8,2,Month-to-month,,West,2022-04-05,1
+85,25.0,34,104.0,3,One year,Credit Card,West,2021-02-03,0
+86,31.0,17,103.27,2,Month-to-month,Bank Transfer,West,2020-01-19,1
+87,40.0,43,21.1,1,Two year,Bank Transfer,West,2023-01-16,0
+88,57.0,59,94.95,0,Month-to-month,Credit Card,South,2022-01-27,1
+89,38.0,51,95.87,1,Month-to-month,Bank Transfer,North,2018-09-03,1
+90,33.0,54,87.84,5,Two year,Credit Card,East,2021-01-09,1
+91,62.0,24,,3,One year,Debit Card,West,2019-10-24,0
+92,35.0,25,104.2,1,Month-to-month,Debit Card,West,2020-06-27,1
+93,64.0,71,67.03,3,Month-to-month,Electronic Check,East,2019-01-31,0
+94,41.0,52,70.21,1,Month-to-month,,East,2019-06-06,0
+95,43.0,70,32.47,2,Month-to-month,Debit Card,West,2023-01-31,0
+96,,33,58.54,4,Month-to-month,Debit Card,East,2022-10-26,1
+97,62.0,49,84.34,0,One year,Credit Card,East,2020-07-14,0
+98,58.0,29,98.04,0,Month-to-month,Debit Card,South,2018-09-21,0
+99,,63,41.72,3,One year,Bank Transfer,East,2022-08-12,0
+100,32.0,22,33.78,3,One year,Debit Card,North,2020-02-29,0
+101,62.0,26,86.3,2,Month-to-month,Credit Card,North,2021-07-21,1
+102,18.0,28,20.19,2,Month-to-month,Bank Transfer,North,2022-09-26,0
+103,42.0,49,,1,Month-to-month,Bank Transfer,West,2023-05-22,0
+104,24.0,71,22.91,4,Month-to-month,Debit Card,North,2018-06-21,1
+105,26.0,49,36.69,2,One year,,South,2018-09-22,0
+106,41.0,20,38.13,3,Month-to-month,Bank Transfer,North,2023-06-10,0
+107,18.0,63,58.77,5,One year,Credit Card,West,2023-01-20,0
+108,61.0,61,,1,Month-to-month,Electronic Check,South,2020-11-15,0
+109,25.0,49,107.43,3,Month-to-month,Electronic Check,North,2022-02-01,1
+110,41.0,71,71.01,4,Month-to-month,Bank Transfer,South,2023-03-01,1
+111,28.0,1,92.34,3,Month-to-month,Debit Card,South,2019-04-21,1
+112,68.0,13,30.41,2,Month-to-month,Electronic Check,West,2018-12-22,0
+113,34.0,51,42.54,6,Month-to-month,Debit Card,West,2020-11-15,1
+114,25.0,56,90.29,1,Two year,Bank Transfer,South,2018-02-03,0
+115,,62,25.28,1,One year,Credit Card,North,2018-09-21,0
+116,52.0,32,68.66,5,Month-to-month,,West,2021-03-07,1
+117,50.0,30,79.94,1,Month-to-month,Credit Card,South,2020-03-26,0
+118,22.0,29,80.21,3,Month-to-month,Debit Card,East,2022-09-15,1
+119,59.0,49,22.29,0,Month-to-month,Debit Card,East,2020-05-24,0
+120,56.0,45,52.21,9,Month-to-month,Credit Card,West,2020-01-24,1
+121,58.0,30,83.65,2,Month-to-month,Bank Transfer,North,2019-07-20,1
+122,45.0,16,34.9,4,Month-to-month,Bank Transfer,East,2019-04-07,1
+123,24.0,40,89.54,0,Month-to-month,Electronic Check,East,2021-04-06,1
+124,26.0,19,94.59,0,Month-to-month,Electronic Check,East,2022-07-13,1
+125,25.0,18,118.2,1,Month-to-month,Bank Transfer,North,2019-10-17,1
+126,29.0,1,40.98,0,One year,Bank Transfer,North,2018-03-22,0
+127,51.0,47,102.51,3,Month-to-month,,West,2020-01-27,1
+128,50.0,66,72.03,1,Month-to-month,Debit Card,West,2023-04-22,0
+129,65.0,38,57.35,3,Month-to-month,Debit Card,East,2023-03-03,0
+130,,51,32.24,0,Two year,Electronic Check,North,2020-05-19,0
+131,41.0,63,93.55,3,Two year,Bank Transfer,South,2021-12-01,0
+132,54.0,4,,3,One year,Credit Card,East,2022-05-17,0
+133,52.0,1,57.14,3,Month-to-month,Electronic Check,West,2020-12-05,0
+134,61.0,8,26.25,3,Month-to-month,Credit Card,North,2019-08-22,0
+135,57.0,29,100.14,5,One year,Bank Transfer,West,2022-06-23,0
+136,39.0,55,96.66,0,Month-to-month,Bank Transfer,West,2020-03-17,1
+137,44.0,3,93.36,2,Month-to-month,Bank Transfer,North,2023-04-19,1
+138,52.0,32,49.94,2,Two year,Debit Card,East,2020-12-12,0
+139,,10,37.35,4,Month-to-month,Bank Transfer,North,2020-09-10,1
+140,,34,83.76,0,Month-to-month,Electronic Check,East,2019-12-05,0
+141,54.0,55,69.62,3,Month-to-month,Debit Card,West,2023-06-06,0
+142,,32,37.83,1,Month-to-month,Credit Card,North,2019-04-21,0
+143,31.0,50,88.59,1,Month-to-month,Electronic Check,South,2019-08-15,1
+144,20.0,7,,6,One year,Electronic Check,East,2018-01-16,0
+145,18.0,8,94.72,2,One year,Credit Card,South,2021-10-15,0
+146,22.0,65,94.0,1,Month-to-month,Debit Card,East,2019-05-02,1
+147,43.0,57,115.03,2,Two year,Electronic Check,North,2023-02-05,0
+148,31.0,67,40.29,2,Month-to-month,Electronic Check,South,2019-12-07,0
+149,56.0,59,76.55,2,Month-to-month,Electronic Check,North,2022-03-06,0
+150,44.0,54,117.96,3,One year,Debit Card,East,2021-03-10,0
+151,26.0,67,36.53,2,One year,Debit Card,East,2019-09-12,0
+152,32.0,51,90.03,1,One year,Debit Card,East,2023-01-13,0
+153,32.0,8,78.58,5,Two year,Electronic Check,East,2020-10-15,0
+154,43.0,34,78.65,2,One year,Bank Transfer,West,2020-02-16,0
+155,59.0,35,89.77,3,Two year,,East,2019-03-23,0
+156,30.0,32,112.96,2,Month-to-month,Bank Transfer,South,2018-10-17,1
+157,68.0,46,98.26,1,One year,Debit Card,East,2018-07-28,0
+158,49.0,16,25.61,1,Two year,Electronic Check,North,2022-02-07,0
+159,56.0,68,105.27,3,One year,Electronic Check,West,2019-02-17,0
+160,66.0,37,42.55,0,Month-to-month,Bank Transfer,South,2019-11-08,0
+161,69.0,54,57.69,0,Month-to-month,Bank Transfer,West,2021-12-21,0
+162,49.0,14,66.17,1,Month-to-month,Credit Card,West,2023-02-21,0
+163,21.0,55,68.09,2,Month-to-month,Electronic Check,West,2021-10-26,0
+164,47.0,48,63.52,2,Two year,Bank Transfer,North,2023-01-30,0
+165,54.0,7,113.74,2,Month-to-month,Credit Card,West,2019-10-26,0
+166,40.0,7,90.6,2,Month-to-month,Debit Card,West,2023-06-14,1
+167,56.0,33,83.12,2,Two year,Bank Transfer,East,2018-10-17,0
+168,62.0,23,24.98,3,Month-to-month,Debit Card,North,2021-12-26,0
+169,32.0,19,110.39,2,Month-to-month,Credit Card,South,2021-07-15,1
+170,60.0,19,110.94,1,Month-to-month,Debit Card,South,2018-05-31,1
+171,46.0,36,98.02,2,One year,Electronic Check,South,2022-10-09,0
+172,53.0,29,20.7,3,Month-to-month,Electronic Check,North,2021-07-02,0
+173,30.0,60,25.73,1,Two year,Debit Card,South,2021-10-08,0
+174,49.0,2,42.52,3,Month-to-month,Electronic Check,North,2021-11-01,0
+175,24.0,1,33.13,1,Month-to-month,Credit Card,East,2022-08-04,0
+176,68.0,47,,0,Month-to-month,Electronic Check,East,2020-05-04,0
+177,39.0,69,112.26,3,One year,Debit Card,North,2021-10-13,0
+178,45.0,20,67.21,3,Month-to-month,Debit Card,South,2019-08-31,0
+179,19.0,11,21.34,2,Month-to-month,Debit Card,North,2023-05-19,0
+180,59.0,2,48.27,1,Month-to-month,Bank Transfer,North,2019-01-05,0
+181,62.0,67,24.46,3,One year,Debit Card,West,2021-06-04,0
+182,,12,23.63,5,Month-to-month,Credit Card,North,2019-12-06,1
+183,45.0,20,47.57,4,One year,,West,2021-08-19,0
+184,45.0,5,47.56,0,One year,Electronic Check,East,2020-04-05,0
+185,61.0,37,98.71,2,Month-to-month,Bank Transfer,West,2020-10-01,1
+186,61.0,38,117.48,3,Month-to-month,Bank Transfer,North,2021-11-13,1
+187,37.0,9,57.12,2,Month-to-month,Credit Card,East,2019-01-12,0
+188,47.0,53,62.89,4,Month-to-month,Debit Card,West,2020-08-30,1
+189,28.0,44,104.48,4,Month-to-month,Bank Transfer,North,2018-04-28,1
+190,45.0,24,46.81,1,Month-to-month,Electronic Check,East,2020-10-25,0
+191,42.0,30,35.64,4,Month-to-month,Bank Transfer,West,2019-03-20,1
+192,56.0,59,105.31,0,Month-to-month,Bank Transfer,North,2021-10-07,1
+193,50.0,14,24.65,1,Month-to-month,Debit Card,North,2020-01-25,0
+194,18.0,9,81.97,2,Month-to-month,Bank Transfer,South,2022-04-06,0
+195,44.0,40,76.2,1,One year,Credit Card,South,2022-08-15,0
+196,69.0,66,54.59,6,Two year,Electronic Check,West,2019-10-02,0
+197,30.0,25,51.52,4,Two year,Debit Card,West,2018-05-04,0
+198,,22,97.19,4,Month-to-month,Electronic Check,West,2019-10-20,1
+199,20.0,4,28.64,2,Month-to-month,Credit Card,North,2021-07-24,0
+200,56.0,26,43.68,2,Month-to-month,Credit Card,West,2020-04-01,0
+201,23.0,58,,2,Month-to-month,Bank Transfer,North,2021-11-18,0
+202,25.0,29,74.83,5,Month-to-month,Bank Transfer,West,2019-10-26,1
+203,44.0,37,32.8,2,One year,Bank Transfer,North,2018-12-26,0
+204,26.0,70,108.21,3,Month-to-month,Electronic Check,North,2019-09-15,1
+205,54.0,18,59.34,3,Month-to-month,Credit Card,South,2022-02-01,0
+206,,42,102.79,0,Two year,Debit Card,East,2022-07-10,0
+207,68.0,41,98.77,2,Month-to-month,Bank Transfer,North,2022-09-20,1
+208,59.0,38,82.44,4,Month-to-month,Electronic Check,West,2020-12-16,1
+209,61.0,34,69.45,2,Month-to-month,Bank Transfer,South,2021-06-28,0
+210,41.0,17,117.96,0,Month-to-month,Credit Card,West,2023-04-04,1
+211,32.0,37,34.5,1,One year,,West,2020-07-07,0
+212,49.0,25,92.52,1,Month-to-month,Credit Card,North,2021-03-19,1
+213,49.0,27,39.12,1,Month-to-month,Electronic Check,North,2019-03-28,0
+214,41.0,57,53.83,3,One year,Bank Transfer,East,2021-03-31,0
+215,58.0,31,50.87,2,One year,Credit Card,North,2018-04-30,0
+216,69.0,6,114.7,3,Two year,Electronic Check,North,2019-08-05,0
+217,66.0,40,116.74,3,One year,Bank Transfer,East,2023-05-02,0
+218,66.0,12,38.3,2,Month-to-month,Debit Card,West,2021-10-06,0
+219,69.0,53,22.2,1,Month-to-month,Credit Card,East,2018-04-09,0
+220,29.0,71,92.0,1,Month-to-month,Bank Transfer,East,2021-04-05,1
+221,56.0,10,61.8,5,Month-to-month,Bank Transfer,East,2023-01-08,1
+222,19.0,45,28.88,1,One year,Bank Transfer,South,2022-08-14,0
+223,20.0,17,88.38,2,One year,Bank Transfer,West,2023-02-05,0
+224,66.0,26,74.51,2,Month-to-month,,South,2023-06-23,0
+225,,62,118.05,0,Month-to-month,Bank Transfer,South,2019-05-29,1
+226,66.0,46,42.74,0,Month-to-month,Electronic Check,North,2019-10-26,0
+227,34.0,64,60.4,3,Two year,Credit Card,East,2019-02-05,0
+228,66.0,2,74.25,1,Month-to-month,Bank Transfer,East,2018-12-31,0
+229,19.0,54,99.17,4,One year,Credit Card,South,2022-05-20,0
+230,19.0,65,74.88,4,One year,Electronic Check,North,2021-09-11,0
+231,45.0,51,81.29,1,Two year,Electronic Check,North,2019-08-04,0
+232,40.0,53,42.61,5,One year,Credit Card,North,2022-07-15,0
+233,54.0,36,104.69,1,One year,Bank Transfer,West,2019-09-13,0
+234,49.0,26,62.86,0,Month-to-month,Bank Transfer,South,2020-04-07,0
+235,50.0,29,34.1,2,Month-to-month,Electronic Check,West,2018-09-04,0
+236,18.0,21,86.42,3,Month-to-month,Bank Transfer,North,2019-03-10,1
+237,36.0,11,41.61,1,Month-to-month,Electronic Check,North,2021-01-21,0
+238,19.0,40,29.76,1,Two year,Bank Transfer,North,2021-07-15,0
+239,61.0,11,106.2,1,Month-to-month,Electronic Check,East,2019-09-07,1
+240,43.0,36,66.02,3,Two year,Debit Card,South,2020-07-31,0
+241,49.0,59,94.93,2,Month-to-month,Bank Transfer,East,2020-08-20,0
+242,23.0,39,49.06,2,Month-to-month,Bank Transfer,West,2019-09-16,0
+243,49.0,54,98.7,0,Two year,Bank Transfer,East,2018-11-17,0
+244,21.0,55,31.19,1,Month-to-month,Credit Card,South,2023-05-01,0
+245,28.0,24,55.6,1,Month-to-month,Bank Transfer,East,2023-01-14,0
+246,34.0,22,117.81,5,Month-to-month,Credit Card,North,2020-05-05,1
+247,55.0,69,99.4,4,One year,Credit Card,West,2018-03-03,0
+248,41.0,56,69.73,2,Month-to-month,Electronic Check,West,2018-10-27,0
+249,22.0,33,53.98,2,Month-to-month,Credit Card,North,2019-02-07,0
+250,69.0,36,107.21,0,Month-to-month,Credit Card,North,2020-08-12,1
+251,51.0,20,74.48,0,One year,Debit Card,North,2022-07-30,0
+252,23.0,62,95.84,1,One year,Bank Transfer,South,2022-05-10,0
+253,39.0,26,95.41,2,Month-to-month,Credit Card,East,2022-07-02,1
+254,28.0,66,21.79,3,Month-to-month,Bank Transfer,West,2021-08-19,0
+255,65.0,40,32.63,2,One year,Credit Card,East,2022-11-29,0
+256,33.0,17,,0,Month-to-month,Electronic Check,North,2018-09-10,1
+257,50.0,1,36.16,1,Month-to-month,Debit Card,North,2022-10-24,0
+258,26.0,61,45.55,4,Month-to-month,Credit Card,East,2019-04-23,0
+259,23.0,43,114.66,1,Two year,Bank Transfer,West,2021-10-24,0
+260,33.0,42,76.02,3,Month-to-month,Electronic Check,South,2022-08-30,0
+261,46.0,25,95.07,0,Month-to-month,Bank Transfer,East,2023-05-19,1
+262,20.0,39,75.8,1,One year,Electronic Check,North,2018-06-09,0
+263,37.0,35,75.25,3,One year,Debit Card,North,2020-08-18,0
+264,53.0,3,29.42,2,Month-to-month,Electronic Check,South,2021-04-04,0
+265,,44,54.37,3,Month-to-month,Bank Transfer,East,2018-07-24,0
+266,43.0,51,48.24,1,One year,Bank Transfer,South,2021-07-14,0
+267,20.0,12,59.07,1,Two year,Credit Card,South,2021-03-07,0
+268,36.0,19,99.83,2,One year,Electronic Check,West,2021-10-23,0
+269,37.0,44,57.19,2,Month-to-month,Bank Transfer,West,2022-01-06,0
+270,49.0,59,65.17,2,Month-to-month,Credit Card,North,2020-05-07,0
+271,24.0,49,59.74,4,Two year,Debit Card,East,2020-01-30,0
+272,69.0,61,29.34,1,One year,Bank Transfer,West,2022-05-10,0
+273,58.0,17,64.11,2,Month-to-month,Credit Card,North,2023-04-24,0
+274,50.0,57,39.56,2,Month-to-month,Bank Transfer,East,2019-12-22,0
+275,57.0,55,38.67,2,One year,Electronic Check,North,2020-11-06,0
+276,56.0,47,29.4,2,Month-to-month,Credit Card,West,2018-03-09,0
+277,35.0,12,55.67,2,Month-to-month,Electronic Check,North,2018-05-13,0
+278,57.0,62,95.75,2,Month-to-month,Debit Card,East,2022-09-20,1
+279,18.0,8,47.64,1,Month-to-month,Electronic Check,East,2020-07-07,0
+280,,21,51.23,1,Month-to-month,Credit Card,North,2019-03-06,0
+281,45.0,70,84.27,3,One year,Bank Transfer,East,2018-11-04,0
+282,42.0,25,39.58,1,Month-to-month,Credit Card,North,2019-10-12,0
+283,67.0,12,109.7,2,Month-to-month,Electronic Check,East,2021-04-12,1
+284,40.0,15,72.02,3,Month-to-month,Electronic Check,North,2019-02-16,0
+285,48.0,59,64.76,3,Month-to-month,Bank Transfer,North,2018-04-07,0
+286,47.0,26,75.78,5,Month-to-month,Debit Card,North,2022-09-03,1
+287,59.0,26,,1,Month-to-month,Credit Card,South,2021-03-23,0
+288,52.0,47,81.35,3,One year,Bank Transfer,East,2022-09-15,0
+289,24.0,32,56.31,2,Month-to-month,Bank Transfer,West,2021-06-19,0
+290,33.0,10,109.72,3,Month-to-month,Bank Transfer,North,2021-08-20,1
+291,43.0,16,36.89,1,Month-to-month,Credit Card,South,2021-08-01,0
+292,65.0,71,70.71,1,Month-to-month,Credit Card,West,2020-11-16,0
+293,69.0,17,79.81,4,Two year,Credit Card,North,2021-11-26,0
+294,,23,23.34,0,Month-to-month,Debit Card,West,2021-10-15,0
+295,19.0,26,56.37,4,Two year,Bank Transfer,South,2020-12-19,0
+296,,7,93.26,2,Month-to-month,Electronic Check,West,2018-07-21,1
+297,65.0,14,102.04,1,One year,Electronic Check,North,2020-02-01,0
+298,29.0,7,51.32,0,Month-to-month,Bank Transfer,West,2020-05-23,0
+299,22.0,9,99.86,3,One year,Electronic Check,West,2019-08-04,0
+300,54.0,48,116.78,1,Month-to-month,Debit Card,North,2023-06-17,0
+301,49.0,59,105.69,1,Month-to-month,Debit Card,South,2019-01-05,1
+302,26.0,39,31.76,2,One year,Credit Card,South,2019-06-17,0
+303,58.0,18,93.97,0,One year,Credit Card,West,2021-03-21,0
+304,52.0,59,,5,Month-to-month,Credit Card,East,2021-01-30,1
+305,36.0,17,118.84,3,Month-to-month,Credit Card,West,2020-06-17,1
+306,65.0,14,68.54,0,Month-to-month,Credit Card,East,2019-08-30,0
+307,33.0,31,32.24,3,One year,Electronic Check,West,2022-01-09,0
+308,20.0,24,92.52,1,Month-to-month,Electronic Check,South,2020-05-22,1
+309,37.0,60,52.3,0,Month-to-month,Credit Card,West,2021-06-06,0
+310,41.0,45,119.71,1,One year,Debit Card,West,2021-02-22,0
+311,50.0,3,117.98,1,Two year,Electronic Check,East,2020-02-09,0
+312,41.0,37,,1,One year,Debit Card,South,2020-04-13,0
+313,69.0,43,32.98,0,One year,Debit Card,East,2020-09-25,0
+314,28.0,40,88.69,1,One year,,West,2023-03-20,0
+315,66.0,55,29.3,2,Month-to-month,Bank Transfer,North,2020-07-26,0
+316,25.0,39,22.94,4,Month-to-month,Credit Card,West,2018-08-24,1
+317,53.0,15,102.3,3,One year,Debit Card,West,2018-06-11,0
+318,55.0,4,40.98,1,Month-to-month,Electronic Check,East,2019-07-08,0
+319,57.0,25,57.9,3,Two year,Bank Transfer,North,2020-02-27,0
+320,37.0,13,117.35,1,Month-to-month,,North,2021-10-08,1
+321,52.0,33,53.68,2,Month-to-month,Debit Card,East,2020-12-27,0
+322,65.0,16,49.65,2,Two year,Bank Transfer,South,2021-04-11,0
+323,42.0,42,111.82,2,One year,Bank Transfer,North,2023-02-10,0
+324,52.0,66,31.07,1,Month-to-month,Electronic Check,North,2022-07-19,0
+325,42.0,55,95.96,0,One year,Debit Card,East,2022-09-02,0
+326,46.0,42,118.81,3,One year,Bank Transfer,South,2019-07-13,0
+327,35.0,34,110.13,1,Month-to-month,Debit Card,South,2018-09-18,1
+328,63.0,30,85.17,0,Month-to-month,Bank Transfer,West,2018-08-05,1
+329,35.0,13,51.41,2,One year,Electronic Check,West,2023-01-15,0
+330,19.0,13,45.43,0,Two year,Debit Card,East,2021-02-21,0
+331,52.0,18,101.93,1,Month-to-month,Bank Transfer,South,2020-03-15,1
+332,33.0,32,107.98,2,Two year,Electronic Check,East,2021-03-31,0
+333,58.0,39,,1,Two year,Bank Transfer,West,2018-07-20,0
+334,53.0,46,44.43,5,Month-to-month,Debit Card,East,2022-01-17,0
+335,50.0,29,31.29,3,One year,Bank Transfer,East,2019-02-06,0
+336,21.0,62,28.72,1,Month-to-month,Debit Card,North,2022-01-25,0
+337,50.0,62,91.91,1,Month-to-month,Debit Card,North,2018-10-02,1
+338,31.0,57,62.01,0,One year,,North,2018-07-25,0
+339,38.0,16,110.54,0,Two year,Electronic Check,West,2020-11-29,0
+340,65.0,56,93.97,2,One year,Credit Card,East,2021-07-20,0
+341,37.0,10,39.13,2,Month-to-month,Electronic Check,North,2022-09-20,0
+342,25.0,30,81.38,4,Month-to-month,Electronic Check,North,2020-05-16,1
+343,24.0,25,63.55,0,Month-to-month,,North,2018-04-03,0
+344,20.0,5,77.72,1,Month-to-month,Electronic Check,West,2020-12-01,0
+345,34.0,65,93.81,1,Month-to-month,Electronic Check,West,2022-01-28,1
+346,50.0,49,100.62,1,Month-to-month,Credit Card,East,2019-01-14,1
+347,65.0,3,104.37,2,Month-to-month,Electronic Check,East,2021-02-04,1
+348,29.0,45,45.4,0,One year,Credit Card,East,2021-09-13,0
+349,68.0,14,23.11,1,Month-to-month,Bank Transfer,North,2018-03-06,0
+350,39.0,30,93.93,0,Month-to-month,Credit Card,South,2018-12-31,1
+351,39.0,68,30.63,3,Month-to-month,Debit Card,West,2020-03-31,0
+352,63.0,18,51.49,2,Month-to-month,Debit Card,North,2022-02-16,0
+353,47.0,62,20.38,1,Month-to-month,Credit Card,North,2022-07-29,0
+354,55.0,37,88.17,1,Month-to-month,Debit Card,East,2023-04-09,1
+355,,25,36.71,2,Two year,Bank Transfer,East,2020-11-13,0
+356,62.0,48,85.53,1,Month-to-month,Debit Card,North,2019-06-24,1
+357,68.0,65,119.17,0,One year,,West,2020-12-21,0
+358,25.0,53,27.27,5,Two year,Bank Transfer,West,2019-05-06,0
+359,44.0,15,,4,One year,Debit Card,North,2021-07-20,0
+360,44.0,49,54.04,2,Month-to-month,Bank Transfer,South,2018-08-17,0
+361,51.0,68,106.64,0,Two year,Credit Card,South,2020-11-09,0
+362,38.0,12,,3,Month-to-month,Debit Card,West,2018-01-03,0
+363,47.0,59,56.04,2,Month-to-month,Bank Transfer,East,2021-12-15,0
+364,50.0,37,26.85,6,Two year,Bank Transfer,South,2022-10-20,0
+365,45.0,61,96.32,3,One year,Debit Card,South,2020-06-29,0
+366,64.0,43,60.83,1,Month-to-month,Bank Transfer,East,2018-11-03,0
+367,50.0,70,95.92,2,Month-to-month,Bank Transfer,South,2019-03-08,1
+368,22.0,39,110.36,1,Month-to-month,Credit Card,North,2018-05-16,0
+369,65.0,56,43.28,3,Month-to-month,Credit Card,South,2023-04-17,0
+370,36.0,63,100.74,0,Month-to-month,Credit Card,East,2023-05-22,1
+371,21.0,46,25.91,4,Two year,Credit Card,North,2019-05-30,0
+372,52.0,11,109.88,3,Two year,Credit Card,South,2018-07-12,0
+373,66.0,62,85.08,1,Two year,Credit Card,West,2022-05-28,0
+374,34.0,25,107.42,2,Month-to-month,Debit Card,North,2021-12-09,1
+375,61.0,71,20.02,0,One year,Credit Card,North,2020-05-22,0
+376,45.0,52,36.91,6,Two year,Bank Transfer,West,2021-02-15,0
+377,47.0,4,58.98,3,Two year,Debit Card,West,2019-10-28,0
+378,46.0,59,57.95,1,Month-to-month,Bank Transfer,South,2018-07-28,0
+379,63.0,20,42.67,0,Month-to-month,Credit Card,South,2020-08-09,0
+380,23.0,63,58.16,3,Month-to-month,Credit Card,East,2020-11-23,0
+381,52.0,54,32.88,0,Month-to-month,Bank Transfer,East,2019-10-11,0
+382,58.0,57,61.28,2,One year,Bank Transfer,North,2021-09-03,0
+383,54.0,41,100.24,2,One year,Bank Transfer,West,2018-04-30,0
+384,41.0,3,67.91,3,Month-to-month,Electronic Check,West,2019-09-19,0
+385,46.0,6,21.8,2,Month-to-month,Electronic Check,East,2019-06-09,0
+386,,5,62.14,2,Month-to-month,Electronic Check,North,2022-05-24,0
+387,63.0,5,22.72,2,Month-to-month,Electronic Check,North,2023-05-15,0
+388,48.0,54,116.62,3,Month-to-month,Debit Card,East,2023-02-12,1
+389,52.0,47,32.75,2,One year,Credit Card,East,2020-02-08,0
+390,50.0,49,90.77,1,Month-to-month,Bank Transfer,East,2021-01-17,1
+391,69.0,9,117.28,2,One year,Credit Card,South,2019-05-27,0
+392,,20,102.6,3,Month-to-month,Bank Transfer,North,2018-02-16,1
+393,49.0,61,89.93,2,Month-to-month,Credit Card,North,2020-02-11,1
+394,40.0,35,103.95,0,Month-to-month,Debit Card,North,2020-01-10,1
+395,50.0,50,118.18,3,Two year,Electronic Check,East,2023-06-06,0
+396,20.0,62,82.13,3,Month-to-month,Credit Card,East,2022-09-12,1
+397,35.0,17,75.92,2,One year,Bank Transfer,East,2019-06-06,0
+398,42.0,3,82.82,1,Month-to-month,Credit Card,East,2021-07-31,0
+399,59.0,32,73.27,6,Two year,Debit Card,West,2021-11-01,0
+400,48.0,13,83.51,6,One year,Debit Card,East,2022-07-20,0
+401,20.0,68,64.98,3,Month-to-month,Credit Card,South,2018-05-14,0
+402,57.0,14,41.84,3,One year,Electronic Check,West,2022-08-18,0
+403,63.0,11,32.02,2,Month-to-month,Bank Transfer,West,2018-09-05,0
+404,41.0,56,26.83,0,Two year,Debit Card,East,2022-08-03,0
+405,67.0,67,46.33,1,Month-to-month,Debit Card,North,2021-09-03,0
+406,49.0,29,24.61,1,Month-to-month,Credit Card,East,2019-03-12,0
+407,64.0,9,76.72,0,One year,Debit Card,North,2021-04-14,0
+408,39.0,67,48.38,4,One year,Debit Card,East,2023-02-02,0
+409,40.0,25,102.45,3,Month-to-month,Bank Transfer,East,2019-11-17,1
+410,19.0,42,27.42,3,One year,Electronic Check,North,2019-08-09,0
+411,44.0,9,42.64,1,Month-to-month,,North,2018-12-17,0
+412,59.0,40,93.02,2,Month-to-month,,North,2018-05-23,1
+413,19.0,25,79.88,2,One year,Bank Transfer,North,2020-08-24,0
+414,43.0,5,26.45,1,Month-to-month,Credit Card,South,2020-03-14,0
+415,34.0,11,107.72,2,Month-to-month,Debit Card,North,2021-11-22,1
+416,57.0,59,107.73,0,One year,Electronic Check,East,2022-07-06,0
+417,50.0,38,,1,Month-to-month,Credit Card,East,2019-12-19,0
+418,26.0,5,54.04,0,One year,Debit Card,South,2019-10-05,0
+419,60.0,48,118.9,1,Month-to-month,Debit Card,North,2021-10-24,1
+420,65.0,18,82.62,3,Month-to-month,Debit Card,East,2019-05-16,1
+421,56.0,70,73.13,2,Month-to-month,Bank Transfer,South,2022-07-04,0
+422,46.0,37,103.82,3,One year,Credit Card,East,2019-01-05,0
+423,59.0,60,48.53,2,One year,Credit Card,South,2022-05-22,0
+424,43.0,48,62.92,1,Month-to-month,Debit Card,South,2021-11-06,0
+425,52.0,28,46.78,3,Month-to-month,Electronic Check,West,2021-01-14,0
+426,67.0,69,98.92,1,Two year,Credit Card,West,2020-02-26,0
+427,42.0,40,77.33,2,Month-to-month,Bank Transfer,North,2020-01-09,0
+428,41.0,45,85.88,3,Two year,Electronic Check,West,2022-01-23,0
+429,30.0,62,45.23,2,Month-to-month,Electronic Check,South,2020-08-07,0
+430,24.0,58,,1,One year,Electronic Check,East,2021-09-10,0
+431,53.0,67,68.84,4,Month-to-month,Electronic Check,East,2019-06-06,1
+432,62.0,56,93.76,1,Two year,Credit Card,North,2019-05-04,0
+433,37.0,40,72.52,2,One year,Debit Card,West,2023-05-07,0
+434,18.0,40,23.26,0,Month-to-month,Electronic Check,North,2019-02-01,0
+435,25.0,33,106.86,0,Month-to-month,Bank Transfer,South,2020-06-14,1
+436,,6,26.47,1,One year,Bank Transfer,West,2018-12-21,0
+437,33.0,19,115.58,3,One year,Debit Card,North,2020-08-04,0
+438,31.0,40,22.51,1,Month-to-month,Credit Card,East,2018-10-15,0
+439,29.0,59,89.45,1,Month-to-month,Debit Card,East,2022-01-22,1
+440,68.0,59,28.22,0,One year,Electronic Check,North,2022-07-06,0
+441,40.0,48,111.07,2,Month-to-month,Credit Card,North,2020-09-24,0
+442,32.0,41,66.44,1,One year,Credit Card,North,2019-06-20,0
+443,45.0,13,33.75,2,Month-to-month,Electronic Check,South,2021-08-07,0
+444,51.0,45,54.08,1,Two year,Bank Transfer,South,2020-04-30,0
+445,19.0,53,36.48,1,Two year,Electronic Check,East,2020-04-17,0
+446,49.0,42,,4,Two year,Debit Card,South,2018-06-17,0
+447,40.0,63,114.81,2,Month-to-month,Electronic Check,South,2020-08-07,1
+448,39.0,27,64.52,0,Two year,Bank Transfer,West,2019-09-13,0
+449,68.0,38,98.88,1,Month-to-month,,South,2019-03-04,1
+450,42.0,60,83.96,2,Month-to-month,Debit Card,West,2022-09-22,1
+451,39.0,7,87.64,4,Month-to-month,Debit Card,South,2019-05-05,1
+452,39.0,5,33.17,1,Month-to-month,,East,2018-12-21,0
+453,,45,43.42,0,Two year,Debit Card,North,2018-07-15,0
+454,69.0,58,,3,Month-to-month,Debit Card,East,2019-06-29,1
+455,59.0,31,117.08,1,One year,Electronic Check,South,2019-12-18,0
+456,23.0,23,46.27,5,One year,Credit Card,North,2020-04-03,0
+457,32.0,42,47.16,2,One year,Debit Card,North,2020-07-20,0
+458,60.0,10,67.29,6,Month-to-month,Debit Card,North,2022-09-14,0
+459,54.0,32,118.38,0,Month-to-month,Bank Transfer,West,2020-09-29,1
+460,50.0,53,46.9,2,One year,Bank Transfer,East,2019-10-21,0
+461,25.0,30,60.7,1,Month-to-month,Electronic Check,West,2020-07-27,0
+462,61.0,39,109.15,2,Month-to-month,Electronic Check,North,2020-02-19,1
+463,61.0,31,20.29,0,Month-to-month,Debit Card,East,2018-01-11,0
+464,22.0,2,23.98,2,Month-to-month,Credit Card,East,2022-05-25,0
+465,56.0,12,80.41,2,Two year,Credit Card,South,2021-07-03,0
+466,21.0,39,110.74,1,Month-to-month,Electronic Check,West,2019-01-31,1
+467,23.0,66,43.89,3,Month-to-month,Bank Transfer,West,2020-01-01,0
+468,62.0,13,66.96,1,Month-to-month,Debit Card,South,2023-01-07,0
+469,49.0,46,65.05,0,Month-to-month,Debit Card,West,2019-02-13,0
+470,69.0,27,67.3,1,Month-to-month,Credit Card,North,2018-12-28,0
+471,47.0,17,,1,Month-to-month,Electronic Check,North,2021-07-06,1
+472,64.0,60,66.97,2,Month-to-month,Credit Card,West,2020-10-23,0
+473,52.0,64,64.75,3,One year,Credit Card,South,2018-03-25,0
+474,57.0,35,67.43,5,Month-to-month,Electronic Check,East,2018-06-05,0
+475,69.0,70,79.09,1,Month-to-month,Bank Transfer,West,2022-08-14,0
+476,33.0,30,73.7,2,Month-to-month,Debit Card,East,2021-04-14,0
+477,30.0,71,105.41,3,Month-to-month,Bank Transfer,South,2019-12-08,1
+478,67.0,63,24.95,3,Two year,Electronic Check,East,2023-05-16,0
+479,59.0,28,103.33,3,Month-to-month,Electronic Check,South,2019-04-17,1
+480,47.0,60,104.39,0,Month-to-month,Debit Card,South,2019-09-11,1
+481,36.0,37,48.49,3,Month-to-month,Bank Transfer,North,2021-12-18,0
+482,34.0,22,66.29,3,Two year,Debit Card,North,2018-05-14,0
+483,36.0,68,63.85,2,Month-to-month,Credit Card,South,2020-02-27,0
+484,45.0,20,41.85,4,One year,Credit Card,West,2020-06-25,0
+485,43.0,68,59.68,2,Month-to-month,Credit Card,North,2020-05-13,0
+486,54.0,64,24.44,1,Two year,Bank Transfer,South,2021-11-04,0
+487,43.0,17,47.78,0,Two year,Credit Card,East,2019-10-29,0
+488,40.0,12,,2,Month-to-month,Debit Card,East,2018-10-04,1
+489,26.0,22,48.46,0,Month-to-month,Bank Transfer,West,2021-06-13,0
+490,29.0,17,101.82,3,Month-to-month,Debit Card,East,2022-11-11,1
+491,18.0,10,73.16,1,Month-to-month,Electronic Check,East,2020-05-31,0
+492,18.0,65,107.99,0,Month-to-month,Bank Transfer,South,2018-01-13,0
+493,64.0,22,77.48,2,Month-to-month,Debit Card,East,2018-12-08,0
+494,51.0,50,22.97,0,Month-to-month,Debit Card,East,2018-02-04,0
+495,49.0,14,87.54,1,Month-to-month,Bank Transfer,East,2019-07-13,0
+496,65.0,64,24.49,1,Month-to-month,Electronic Check,East,2021-05-22,0
+497,42.0,47,65.06,2,Month-to-month,Bank Transfer,South,2021-12-06,0
+498,57.0,29,112.94,1,Month-to-month,Credit Card,East,2019-02-09,1
+499,62.0,36,36.52,0,Two year,Credit Card,West,2022-02-26,0
+500,18.0,52,58.99,1,Month-to-month,,North,2019-10-20,0
+501,33.0,7,92.99,0,One year,Debit Card,West,2018-06-08,0
+502,,29,108.23,2,Month-to-month,Debit Card,North,2020-08-13,1
+503,22.0,11,87.09,2,Month-to-month,Debit Card,West,2022-07-19,1
+504,39.0,33,45.82,1,Month-to-month,Bank Transfer,North,2021-02-07,0
+505,46.0,6,87.46,2,Month-to-month,Bank Transfer,North,2019-07-03,1
+506,20.0,32,49.67,3,One year,Electronic Check,North,2022-12-18,0
+507,29.0,51,91.84,1,One year,Credit Card,North,2022-03-30,0
+508,43.0,58,115.4,2,Month-to-month,,South,2020-09-11,1
+509,33.0,26,92.14,3,Two year,Credit Card,West,2021-10-02,0
+510,68.0,46,106.29,2,Month-to-month,Bank Transfer,North,2022-11-03,1
+511,54.0,29,20.21,3,Two year,Bank Transfer,West,2023-01-26,0
+512,39.0,4,91.76,2,Two year,Bank Transfer,East,2022-07-18,0
+513,46.0,13,102.96,2,Month-to-month,Credit Card,North,2018-10-06,1
+514,31.0,39,24.06,1,Month-to-month,Electronic Check,West,2019-04-24,0
+515,,15,107.16,6,Month-to-month,Electronic Check,South,2018-04-21,1
+516,22.0,29,45.67,2,One year,Bank Transfer,West,2022-07-18,0
+517,64.0,29,86.53,2,Month-to-month,Debit Card,North,2023-05-03,1
+518,66.0,32,100.04,1,Two year,Credit Card,East,2019-03-07,0
+519,47.0,2,86.27,1,One year,Bank Transfer,West,2019-06-26,0
+520,63.0,47,29.23,1,Month-to-month,Credit Card,East,2021-02-12,0
+521,69.0,22,79.63,2,Month-to-month,Credit Card,South,2021-01-18,0
+522,22.0,27,74.96,5,One year,Electronic Check,West,2021-05-20,0
+523,29.0,67,110.03,2,Month-to-month,Bank Transfer,West,2022-04-23,1
+524,33.0,56,60.42,1,One year,Electronic Check,South,2022-06-07,0
+525,43.0,21,52.11,1,Month-to-month,Bank Transfer,South,2022-04-12,0
+526,43.0,47,94.99,2,Month-to-month,Credit Card,South,2022-10-19,1
+527,65.0,59,61.27,3,Month-to-month,Electronic Check,North,2018-12-26,0
+528,38.0,6,84.61,1,One year,,North,2022-02-18,0
+529,56.0,19,84.65,2,Month-to-month,Bank Transfer,West,2019-01-07,1
+530,53.0,57,108.8,5,One year,Debit Card,West,2021-05-23,1
+531,50.0,69,79.87,1,Month-to-month,Electronic Check,West,2022-10-23,0
+532,47.0,3,70.22,2,One year,Electronic Check,East,2020-11-04,0
+533,54.0,1,33.89,4,Month-to-month,Credit Card,South,2020-08-12,1
+534,40.0,58,31.57,4,Month-to-month,Credit Card,West,2018-09-16,1
+535,27.0,38,35.43,3,One year,Debit Card,South,2020-02-17,0
+536,22.0,15,37.18,2,Month-to-month,Electronic Check,North,2022-01-26,0
+537,53.0,34,83.79,2,Month-to-month,Bank Transfer,South,2018-04-30,1
+538,,61,94.1,1,Month-to-month,Bank Transfer,East,2020-09-02,1
+539,,35,73.0,1,One year,Electronic Check,East,2020-07-01,0
+540,48.0,64,102.9,1,Two year,Electronic Check,South,2021-02-25,0
+541,27.0,25,119.13,3,Month-to-month,Electronic Check,East,2019-12-24,0
+542,36.0,24,102.0,4,Month-to-month,Debit Card,East,2019-06-07,1
+543,49.0,12,89.49,0,One year,Bank Transfer,North,2022-09-08,0
+544,18.0,18,73.25,3,Month-to-month,Bank Transfer,West,2022-07-27,0
+545,22.0,15,64.89,3,Two year,Credit Card,East,2018-11-21,0
+546,62.0,27,28.44,2,Month-to-month,Credit Card,West,2021-09-05,0
+547,21.0,60,59.94,3,Two year,Electronic Check,South,2022-03-10,0
+548,,46,111.01,5,One year,Credit Card,South,2022-03-30,0
+549,41.0,17,100.8,3,One year,Debit Card,East,2020-12-09,0
+550,33.0,53,41.61,1,One year,Bank Transfer,South,2023-04-30,0
+551,19.0,8,66.66,2,Month-to-month,Bank Transfer,North,2022-05-27,0
+552,66.0,27,101.67,0,Month-to-month,Credit Card,East,2018-03-10,1
+553,,46,26.74,2,Month-to-month,Electronic Check,East,2019-01-26,0
+554,49.0,50,58.74,3,One year,Credit Card,East,2019-01-18,0
+555,44.0,71,105.18,4,One year,Electronic Check,South,2018-01-16,0
+556,37.0,3,60.39,0,Two year,Debit Card,South,2022-01-02,0
+557,41.0,64,27.76,1,Month-to-month,Bank Transfer,East,2020-04-25,0
+558,,44,74.25,1,Month-to-month,Debit Card,West,2020-05-18,0
+559,67.0,53,106.17,1,Month-to-month,Bank Transfer,South,2019-07-22,0
+560,52.0,24,79.03,0,One year,Debit Card,South,2022-06-29,0
+561,50.0,60,42.63,1,Month-to-month,Credit Card,East,2018-05-12,0
+562,50.0,3,58.42,2,Month-to-month,Debit Card,West,2022-05-03,0
+563,68.0,20,65.01,3,One year,Debit Card,East,2021-06-25,0
+564,60.0,46,77.93,4,Month-to-month,Credit Card,South,2018-09-30,1
+565,54.0,15,95.94,1,Month-to-month,Bank Transfer,East,2022-07-05,1
+566,29.0,25,29.89,4,Month-to-month,Bank Transfer,East,2023-05-10,0
+567,20.0,71,108.97,1,One year,Credit Card,East,2023-02-05,0
+568,18.0,17,21.23,2,Month-to-month,Debit Card,West,2023-02-15,0
+569,50.0,9,57.01,1,One year,Debit Card,East,2021-10-04,0
+570,57.0,38,22.74,2,Month-to-month,Debit Card,South,2019-04-29,0
+571,27.0,48,59.3,5,Two year,Electronic Check,East,2019-07-04,0
+572,60.0,60,72.58,2,Month-to-month,Bank Transfer,West,2018-12-23,0
+573,61.0,63,71.17,0,Month-to-month,Debit Card,North,2022-11-11,0
+574,46.0,2,36.56,2,One year,Bank Transfer,West,2021-09-03,0
+575,30.0,11,84.57,2,One year,Debit Card,East,2022-07-15,0
+576,29.0,64,24.48,2,Month-to-month,Credit Card,North,2020-12-07,0
+577,,21,96.19,1,One year,Credit Card,East,2020-10-30,0
+578,63.0,18,114.66,5,Month-to-month,Bank Transfer,West,2018-08-21,1
+579,19.0,64,53.98,1,Two year,Bank Transfer,North,2018-02-05,0
+580,68.0,38,71.72,1,One year,Credit Card,North,2019-02-17,0
+581,67.0,32,57.89,3,Month-to-month,Electronic Check,East,2022-01-25,0
+582,52.0,11,20.67,4,One year,Credit Card,East,2020-10-24,0
+583,40.0,45,58.59,4,Month-to-month,Debit Card,West,2018-02-13,0
+584,34.0,33,99.17,0,Month-to-month,Electronic Check,East,2019-07-22,1
+585,43.0,41,79.6,1,Two year,Credit Card,North,2022-04-27,0
+586,25.0,8,30.13,2,One year,Electronic Check,South,2021-07-02,0
+587,46.0,11,104.71,1,Month-to-month,Electronic Check,South,2020-01-10,1
+588,43.0,51,73.11,1,Month-to-month,Electronic Check,West,2018-04-24,0
+589,27.0,41,104.17,1,Month-to-month,Bank Transfer,East,2022-11-08,0
+590,43.0,17,78.02,5,Two year,Credit Card,West,2019-02-01,0
+591,51.0,46,75.97,3,Month-to-month,Bank Transfer,South,2021-04-12,0
+592,68.0,32,,4,Month-to-month,Bank Transfer,South,2021-07-02,1
+593,58.0,54,36.74,1,Month-to-month,Debit Card,East,2019-04-11,0
+594,24.0,20,117.2,1,Month-to-month,Debit Card,North,2023-05-07,1
+595,21.0,33,42.85,1,Month-to-month,Electronic Check,East,2021-07-24,0
+596,67.0,40,117.75,1,Month-to-month,Electronic Check,South,2022-01-27,1
+597,,32,,1,Month-to-month,Debit Card,North,2020-04-26,0
+598,28.0,2,33.58,2,Month-to-month,Debit Card,West,2019-05-17,0
+599,46.0,33,29.93,0,Two year,Credit Card,South,2019-03-17,0
+600,53.0,30,40.89,2,Month-to-month,Electronic Check,West,2018-03-10,0
+601,42.0,33,,7,One year,,North,2022-03-13,0
+602,38.0,26,,2,One year,Debit Card,West,2018-11-22,0
+603,53.0,22,59.54,3,One year,Credit Card,South,2022-11-01,0
+604,27.0,66,51.32,1,Two year,Debit Card,East,2018-03-08,0
+605,,38,34.71,2,Month-to-month,Debit Card,West,2018-10-31,0
+606,26.0,46,68.79,2,Month-to-month,Bank Transfer,South,2020-08-29,0
+607,41.0,15,33.0,3,Month-to-month,Electronic Check,South,2019-04-29,0
+608,52.0,44,103.55,1,Month-to-month,Credit Card,North,2020-07-17,1
+609,66.0,49,57.04,4,One year,Bank Transfer,South,2022-04-21,0
+610,52.0,61,57.48,3,One year,Electronic Check,East,2021-12-11,0
+611,65.0,67,,3,Two year,Debit Card,East,2021-03-28,0
+612,,6,64.41,7,Month-to-month,Credit Card,West,2018-05-29,1
+613,35.0,9,119.49,3,Two year,Electronic Check,West,2020-11-16,0
+614,66.0,6,74.54,5,Month-to-month,Debit Card,West,2020-09-13,1
+615,56.0,32,28.82,3,Month-to-month,Bank Transfer,West,2019-08-07,0
+616,49.0,41,80.69,2,Month-to-month,,East,2018-09-05,1
+617,41.0,8,35.16,2,One year,Electronic Check,North,2021-01-29,0
+618,40.0,50,23.09,1,Month-to-month,,West,2019-12-03,0
+619,49.0,62,117.07,3,Two year,Debit Card,North,2018-04-06,0
+620,54.0,62,97.35,0,Two year,Debit Card,South,2021-11-08,0
+621,29.0,7,118.01,1,Two year,Electronic Check,South,2018-10-09,0
+622,66.0,4,67.79,1,Month-to-month,Debit Card,West,2018-11-18,0
+623,30.0,6,73.23,2,Two year,,South,2021-11-20,0
+624,40.0,58,36.83,2,One year,Electronic Check,North,2021-07-25,0
+625,42.0,22,44.69,0,Month-to-month,Bank Transfer,North,2019-06-13,0
+626,52.0,26,103.85,3,Month-to-month,Electronic Check,South,2018-09-20,1
+627,58.0,3,55.62,1,Month-to-month,Electronic Check,West,2022-07-01,0
+628,47.0,41,102.68,0,Month-to-month,Bank Transfer,North,2019-08-03,0
+629,34.0,60,90.9,3,Month-to-month,Debit Card,North,2022-07-22,1
+630,66.0,14,37.72,2,Two year,Bank Transfer,East,2021-08-09,0
+631,37.0,12,70.74,0,Month-to-month,Credit Card,West,2018-10-21,0
+632,65.0,12,,3,Month-to-month,Debit Card,East,2022-06-20,1
+633,42.0,13,43.5,2,Two year,Electronic Check,South,2019-01-30,0
+634,39.0,25,103.07,1,Month-to-month,Debit Card,South,2019-05-28,1
+635,30.0,45,,2,Two year,Debit Card,East,2020-07-09,0
+636,36.0,19,36.52,2,Month-to-month,Credit Card,West,2020-03-20,0
+637,,55,78.3,3,Month-to-month,Debit Card,North,2021-04-18,0
+638,53.0,45,119.97,5,Month-to-month,,South,2020-07-08,1
+639,29.0,8,35.05,2,Month-to-month,Debit Card,West,2019-11-24,0
+640,58.0,53,101.68,0,Month-to-month,,West,2018-08-23,1
+641,36.0,55,40.73,2,One year,Debit Card,South,2020-08-09,0
+642,29.0,32,98.24,0,Month-to-month,Bank Transfer,South,2023-01-29,1
+643,26.0,51,93.46,2,Two year,Debit Card,West,2021-09-22,0
+644,24.0,44,50.05,3,Month-to-month,Credit Card,North,2020-10-28,0
+645,45.0,70,52.58,0,Month-to-month,Debit Card,East,2022-01-06,0
+646,31.0,18,99.25,2,One year,Debit Card,South,2023-05-19,0
+647,48.0,22,66.14,1,Month-to-month,Electronic Check,East,2019-06-23,0
+648,69.0,37,93.08,2,One year,Bank Transfer,West,2020-03-30,0
+649,36.0,56,34.8,3,Two year,Debit Card,East,2022-08-09,0
+650,,59,105.26,4,One year,Bank Transfer,North,2021-01-19,1
+651,33.0,3,91.09,0,Month-to-month,Credit Card,West,2023-02-21,0
+652,22.0,28,110.69,0,Month-to-month,Electronic Check,North,2018-09-29,1
+653,52.0,35,33.24,1,One year,Bank Transfer,West,2023-02-01,0
+654,29.0,61,79.3,1,One year,Electronic Check,North,2020-10-25,0
+655,42.0,54,79.91,6,Month-to-month,Debit Card,West,2022-06-06,1
+656,69.0,63,55.35,3,Month-to-month,Credit Card,North,2023-04-07,1
+657,38.0,7,65.85,1,Month-to-month,Electronic Check,West,2021-05-27,0
+658,53.0,49,23.8,3,Month-to-month,Debit Card,North,2021-02-15,0
+659,40.0,31,94.59,2,Month-to-month,Bank Transfer,West,2019-08-16,0
+660,33.0,58,74.93,1,Month-to-month,Credit Card,North,2020-09-02,0
+661,56.0,61,25.77,2,One year,Credit Card,South,2022-05-25,0
+662,62.0,24,88.08,3,Two year,Bank Transfer,East,2018-04-25,0
+663,59.0,20,66.68,1,One year,Bank Transfer,West,2018-09-20,0
+664,56.0,37,23.45,6,Month-to-month,Credit Card,North,2021-08-22,1
+665,31.0,4,116.96,2,Month-to-month,Electronic Check,South,2022-08-05,1
+666,48.0,20,114.91,0,Two year,Credit Card,West,2021-12-16,0
+667,22.0,60,,2,Two year,Bank Transfer,West,2018-07-26,0
+668,52.0,24,29.37,3,Two year,Electronic Check,West,2022-07-05,0
+669,40.0,50,95.46,1,One year,Debit Card,East,2018-10-30,0
+670,46.0,49,69.19,3,Month-to-month,Credit Card,North,2018-04-22,0
+671,60.0,51,50.24,0,One year,Bank Transfer,North,2021-12-11,0
+672,28.0,36,69.14,1,Month-to-month,Debit Card,West,2022-04-28,0
+673,35.0,66,72.24,2,Month-to-month,,West,2023-02-26,0
+674,64.0,34,76.27,1,One year,Credit Card,West,2021-08-01,0
+675,29.0,36,64.12,1,Month-to-month,Electronic Check,South,2022-07-22,0
+676,26.0,6,80.58,3,Month-to-month,Bank Transfer,West,2018-07-04,1
+677,27.0,39,111.87,3,Month-to-month,Debit Card,East,2022-10-31,1
+678,61.0,42,56.23,1,Month-to-month,Credit Card,North,2020-06-19,0
+679,34.0,58,92.57,0,Two year,Electronic Check,East,2018-08-09,0
+680,55.0,12,109.45,2,Month-to-month,Debit Card,West,2023-03-03,1
+681,24.0,3,65.6,5,Month-to-month,,South,2022-01-07,1
+682,63.0,18,64.35,0,Month-to-month,Credit Card,West,2021-02-14,0
+683,30.0,40,80.21,1,Month-to-month,,West,2020-12-29,1
+684,57.0,21,79.14,2,Month-to-month,Credit Card,West,2020-06-16,0
+685,59.0,15,100.66,1,One year,Electronic Check,West,2020-12-29,0
+686,26.0,26,67.65,3,Month-to-month,Electronic Check,West,2019-09-14,0
+687,67.0,8,119.61,2,One year,Debit Card,North,2019-03-03,0
+688,44.0,42,25.95,2,Two year,Credit Card,East,2019-10-06,0
+689,19.0,44,20.32,4,One year,Bank Transfer,South,2019-07-22,0
+690,22.0,14,84.02,4,Month-to-month,Electronic Check,West,2019-03-19,1
+691,46.0,2,49.84,0,Month-to-month,,South,2019-08-24,0
+692,54.0,37,44.04,3,Two year,Credit Card,North,2021-03-06,0
+693,,69,51.19,3,Month-to-month,Credit Card,East,2019-05-19,0
+694,36.0,38,45.6,1,One year,Debit Card,West,2018-05-11,0
+695,25.0,41,23.08,4,Two year,Bank Transfer,North,2018-08-06,0
+696,65.0,62,117.15,3,Two year,Debit Card,North,2019-11-19,0
+697,62.0,60,42.07,1,Two year,Electronic Check,East,2018-06-20,0
+698,18.0,14,93.4,1,Month-to-month,Debit Card,West,2022-02-07,1
+699,39.0,2,96.26,1,Month-to-month,Credit Card,East,2019-09-04,1
+700,69.0,70,112.93,1,Two year,Debit Card,East,2020-09-18,0
+701,34.0,17,23.05,1,Month-to-month,Credit Card,South,2021-02-26,0
+702,24.0,28,107.2,1,Month-to-month,Bank Transfer,South,2018-02-26,1
+703,42.0,66,72.72,1,One year,Debit Card,East,2021-04-19,0
+704,62.0,35,83.25,6,Month-to-month,Debit Card,South,2018-09-03,1
+705,21.0,5,84.45,2,Two year,Debit Card,North,2018-05-24,0
+706,53.0,65,101.98,0,One year,Credit Card,East,2020-12-10,0
+707,23.0,40,53.34,2,Month-to-month,Credit Card,West,2019-01-03,0
+708,48.0,56,93.31,1,Two year,Debit Card,West,2022-01-22,0
+709,36.0,36,72.86,2,One year,Debit Card,North,2018-08-06,0
+710,61.0,45,99.34,3,One year,Bank Transfer,West,2019-09-08,0
+711,56.0,23,119.05,2,Month-to-month,Bank Transfer,West,2023-04-03,1
+712,44.0,47,40.07,1,Month-to-month,Electronic Check,East,2022-05-10,0
+713,27.0,31,119.46,4,One year,Bank Transfer,North,2021-07-04,0
+714,,11,28.98,2,Month-to-month,Bank Transfer,East,2023-02-25,0
+715,,10,20.23,5,Month-to-month,Bank Transfer,North,2021-03-25,1
+716,56.0,67,24.42,0,One year,Credit Card,East,2022-05-08,0
+717,20.0,14,54.18,1,Month-to-month,Bank Transfer,East,2019-03-18,0
+718,62.0,10,83.29,0,Month-to-month,Bank Transfer,South,2020-04-20,1
+719,30.0,1,26.9,2,Month-to-month,Debit Card,West,2020-08-13,0
+720,67.0,5,20.57,1,Month-to-month,Credit Card,North,2019-11-30,0
+721,45.0,20,113.71,2,One year,Electronic Check,West,2020-05-25,0
+722,37.0,8,102.19,2,Month-to-month,Electronic Check,South,2022-08-13,1
+723,45.0,43,100.92,2,Month-to-month,Bank Transfer,North,2020-02-15,1
+724,25.0,1,108.44,3,One year,Electronic Check,South,2020-02-01,0
+725,58.0,57,90.0,1,Two year,Electronic Check,West,2020-08-02,0
+726,56.0,64,30.44,1,One year,Electronic Check,East,2023-01-08,0
+727,18.0,28,59.91,3,Month-to-month,Bank Transfer,South,2020-07-11,0
+728,20.0,37,92.31,2,Month-to-month,Electronic Check,South,2020-07-23,0
+729,30.0,47,48.03,5,Two year,Bank Transfer,East,2022-10-13,0
+730,45.0,37,88.74,2,Month-to-month,Debit Card,West,2018-01-25,0
+731,66.0,49,22.45,0,One year,Debit Card,South,2020-03-16,0
+732,42.0,44,50.61,1,Month-to-month,Electronic Check,West,2023-02-20,0
+733,50.0,56,74.91,2,Month-to-month,Debit Card,East,2022-08-15,0
+734,55.0,28,83.21,2,One year,Bank Transfer,North,2022-04-09,0
+735,23.0,6,77.7,4,One year,Debit Card,South,2020-02-03,0
+736,61.0,61,89.78,2,One year,Electronic Check,West,2020-12-19,0
+737,62.0,20,20.61,2,Month-to-month,Bank Transfer,East,2022-01-30,0
+738,49.0,2,30.09,1,Month-to-month,Credit Card,East,2019-03-10,0
+739,62.0,37,106.89,3,Month-to-month,Bank Transfer,South,2020-05-28,1
+740,64.0,20,88.17,3,Month-to-month,Debit Card,North,2020-12-25,1
+741,38.0,26,31.29,4,Month-to-month,Credit Card,South,2020-06-28,1
+742,33.0,29,,5,Month-to-month,Bank Transfer,West,2019-07-19,1
+743,38.0,1,44.22,0,Month-to-month,Credit Card,East,2023-05-06,0
+744,28.0,35,67.83,0,Two year,Credit Card,North,2018-04-16,0
+745,54.0,70,34.52,3,One year,Credit Card,West,2018-04-06,0
+746,53.0,59,91.01,0,Two year,Bank Transfer,South,2022-09-08,0
+747,52.0,69,86.69,2,Month-to-month,Debit Card,East,2022-04-24,1
+748,36.0,33,41.11,4,Two year,Bank Transfer,South,2018-06-17,0
+749,37.0,51,106.34,3,Month-to-month,Debit Card,North,2018-02-11,1
+750,35.0,12,,0,Month-to-month,Bank Transfer,North,2023-03-18,0
+751,64.0,20,49.25,0,One year,Bank Transfer,North,2018-04-14,0
+752,58.0,53,,2,Month-to-month,Bank Transfer,North,2023-02-12,0
+753,66.0,43,46.62,2,Month-to-month,Debit Card,North,2021-05-12,0
+754,31.0,50,22.2,1,Month-to-month,Bank Transfer,South,2019-06-04,0
+755,,29,78.33,2,Month-to-month,Credit Card,North,2023-06-22,0
+756,48.0,57,104.22,0,One year,Bank Transfer,North,2018-10-09,0
+757,18.0,39,74.9,3,One year,Credit Card,East,2023-04-16,0
+758,20.0,56,41.93,0,One year,Electronic Check,North,2020-12-02,0
+759,33.0,43,,0,Month-to-month,Electronic Check,East,2020-08-04,0
+760,40.0,50,41.46,1,One year,Debit Card,East,2021-02-07,0
+761,28.0,23,61.61,2,Month-to-month,Debit Card,East,2021-05-18,0
+762,29.0,44,95.96,1,Month-to-month,Electronic Check,South,2020-01-19,1
+763,27.0,38,38.78,4,Two year,Bank Transfer,South,2023-03-07,0
+764,49.0,23,91.98,5,Month-to-month,Bank Transfer,West,2020-04-10,1
+765,33.0,45,106.69,1,One year,Bank Transfer,West,2018-02-18,0
+766,25.0,52,65.39,2,Month-to-month,Electronic Check,East,2018-04-25,0
+767,55.0,50,102.14,3,One year,Credit Card,South,2021-03-24,0
+768,29.0,8,75.47,3,One year,Debit Card,North,2022-07-31,0
+769,41.0,1,83.71,2,Month-to-month,Credit Card,West,2019-05-18,1
+770,45.0,8,72.63,0,Month-to-month,Electronic Check,South,2022-08-30,0
+771,25.0,29,66.32,0,One year,Credit Card,North,2023-01-31,0
+772,45.0,5,,0,Month-to-month,Bank Transfer,North,2022-10-01,0
+773,53.0,47,50.32,3,Month-to-month,Bank Transfer,South,2020-09-12,0
+774,,34,49.0,1,One year,Credit Card,West,2018-03-12,0
+775,25.0,65,76.33,5,Month-to-month,Electronic Check,South,2020-10-08,1
+776,67.0,55,32.0,2,Two year,Credit Card,West,2022-03-23,0
+777,45.0,43,111.68,3,Month-to-month,Bank Transfer,East,2022-10-02,1
+778,45.0,30,92.07,4,Month-to-month,Bank Transfer,South,2021-09-21,1
+779,54.0,17,60.14,0,One year,Electronic Check,South,2018-03-08,0
+780,58.0,26,35.86,0,Month-to-month,Credit Card,West,2022-02-25,0
+781,53.0,8,108.2,0,Month-to-month,Bank Transfer,West,2022-08-01,0
+782,,47,102.38,1,Month-to-month,Bank Transfer,South,2022-11-13,0
+783,34.0,46,92.17,1,Month-to-month,Credit Card,North,2020-08-24,1
+784,26.0,68,47.15,1,Month-to-month,Credit Card,North,2021-05-21,0
+785,50.0,33,60.24,1,Month-to-month,Debit Card,North,2018-06-30,0
+786,37.0,1,30.27,2,Month-to-month,Electronic Check,East,2022-11-25,0
+787,30.0,19,38.9,1,Month-to-month,Electronic Check,East,2019-09-05,0
+788,45.0,31,98.3,1,One year,Credit Card,West,2023-03-02,0
+789,65.0,14,91.5,3,One year,Electronic Check,East,2022-06-11,0
+790,46.0,53,79.35,1,Month-to-month,Bank Transfer,North,2019-11-28,0
+791,30.0,48,109.57,2,One year,Credit Card,South,2019-08-26,0
+792,63.0,69,78.33,1,One year,Credit Card,East,2018-09-05,0
+793,52.0,62,66.7,2,Month-to-month,Credit Card,East,2021-05-22,0
+794,23.0,66,54.04,3,One year,Debit Card,North,2018-12-25,0
+795,35.0,64,114.04,3,Month-to-month,,East,2018-09-06,1
+796,,70,28.27,0,Two year,Debit Card,West,2019-09-30,0
+797,22.0,63,113.09,2,Month-to-month,Bank Transfer,South,2023-05-01,0
+798,64.0,33,102.67,0,Month-to-month,Electronic Check,North,2020-08-07,0
+799,42.0,41,32.99,3,One year,Debit Card,West,2023-03-20,0
+800,19.0,48,76.5,3,Month-to-month,Credit Card,North,2022-03-20,0
+801,27.0,13,106.65,1,Month-to-month,Debit Card,West,2021-01-16,1
+802,47.0,31,77.18,0,Month-to-month,Credit Card,South,2019-10-25,0
+803,67.0,68,110.72,1,Month-to-month,Debit Card,South,2018-06-25,1
+804,,4,,1,One year,Debit Card,West,2019-12-24,0
+805,22.0,19,62.24,1,One year,,West,2019-03-02,0
+806,50.0,70,57.73,2,Month-to-month,Credit Card,West,2022-11-30,0
+807,18.0,13,,4,Month-to-month,Debit Card,West,2022-06-15,1
+808,35.0,23,87.51,2,One year,,West,2020-02-10,0
+809,49.0,1,31.6,3,Month-to-month,Electronic Check,West,2023-05-02,0
+810,64.0,54,24.23,2,One year,,South,2019-12-04,0
+811,66.0,71,76.46,3,Month-to-month,Credit Card,West,2018-03-22,0
+812,28.0,15,113.02,3,Month-to-month,Credit Card,East,2020-07-15,1
+813,38.0,65,104.42,0,Month-to-month,Electronic Check,South,2018-05-18,1
+814,43.0,71,87.58,1,Month-to-month,Electronic Check,North,2021-12-27,1
+815,42.0,15,33.91,2,Month-to-month,Electronic Check,South,2019-04-15,0
+816,39.0,21,45.42,3,Month-to-month,Bank Transfer,North,2018-12-16,0
+817,44.0,19,107.55,0,Month-to-month,Electronic Check,North,2021-02-23,0
+818,66.0,60,38.28,1,Month-to-month,Debit Card,East,2023-03-20,0
+819,30.0,33,47.84,4,Month-to-month,Bank Transfer,West,2023-04-25,1
+820,50.0,49,32.96,2,Month-to-month,Bank Transfer,West,2023-03-07,0
+821,51.0,35,87.61,1,Month-to-month,Credit Card,South,2021-08-25,1
+822,58.0,44,,1,Month-to-month,Debit Card,West,2023-02-22,0
+823,,11,46.9,1,Month-to-month,Credit Card,East,2021-06-07,0
+824,18.0,66,67.54,3,One year,Credit Card,South,2022-01-23,0
+825,38.0,46,83.43,1,Two year,Debit Card,South,2021-09-30,0
+826,65.0,9,119.95,2,Month-to-month,Credit Card,South,2018-11-06,1
+827,23.0,3,30.48,5,Month-to-month,Debit Card,West,2023-05-31,0
+828,45.0,26,69.86,0,Month-to-month,Debit Card,West,2020-11-09,0
+829,34.0,48,58.51,3,One year,Credit Card,West,2023-03-20,0
+830,22.0,66,106.58,2,Month-to-month,Electronic Check,South,2022-05-04,0
+831,48.0,70,67.6,1,Month-to-month,Credit Card,South,2020-09-28,0
+832,22.0,28,31.1,1,One year,Bank Transfer,North,2022-07-29,0
+833,55.0,26,83.44,3,Month-to-month,Credit Card,North,2022-04-14,1
+834,20.0,25,97.08,1,Month-to-month,Debit Card,West,2022-05-03,0
+835,40.0,12,20.29,1,Month-to-month,Bank Transfer,South,2022-02-09,0
+836,54.0,5,,1,One year,Debit Card,West,2018-09-26,0
+837,54.0,48,38.6,2,Month-to-month,Electronic Check,West,2020-10-23,0
+838,27.0,37,75.21,1,Two year,Electronic Check,North,2020-02-09,0
+839,27.0,44,61.58,2,One year,Bank Transfer,East,2018-01-16,0
+840,36.0,15,91.97,3,Month-to-month,Electronic Check,West,2019-08-29,1
+841,34.0,43,,2,Month-to-month,Electronic Check,East,2021-10-13,0
+842,38.0,48,106.98,3,Month-to-month,Credit Card,East,2022-07-28,1
+843,31.0,70,93.05,2,One year,Credit Card,South,2020-03-23,0
+844,26.0,46,84.77,1,One year,Electronic Check,South,2023-02-06,0
+845,63.0,43,99.62,2,Month-to-month,Electronic Check,West,2021-03-02,1
+846,18.0,21,95.4,3,Two year,Credit Card,North,2021-08-28,0
+847,68.0,23,23.59,2,Month-to-month,Electronic Check,North,2023-06-14,0
+848,62.0,47,59.47,0,Month-to-month,Electronic Check,West,2019-04-27,0
+849,30.0,15,113.08,3,Two year,Debit Card,West,2020-06-13,0
+850,21.0,25,32.57,1,One year,Electronic Check,North,2022-04-17,0
+851,18.0,36,93.71,1,Month-to-month,Bank Transfer,East,2021-08-21,1
+852,66.0,51,117.46,4,One year,Debit Card,West,2018-09-26,0
+853,57.0,15,25.22,3,Two year,Bank Transfer,East,2019-02-18,0
+854,49.0,68,88.22,3,One year,Electronic Check,West,2018-01-25,0
+855,51.0,21,66.82,2,One year,Credit Card,West,2018-11-12,0
+856,45.0,13,77.92,1,One year,Debit Card,East,2019-07-25,0
+857,48.0,19,28.53,1,Month-to-month,Credit Card,East,2019-12-26,0
+858,25.0,34,24.3,0,One year,Debit Card,North,2022-08-19,0
+859,56.0,68,86.69,4,Month-to-month,Credit Card,West,2020-10-04,1
+860,,52,102.33,3,Two year,Debit Card,South,2023-01-24,0
+861,51.0,27,98.2,0,Month-to-month,Debit Card,South,2021-07-23,0
+862,20.0,29,74.38,0,One year,Bank Transfer,West,2023-05-08,0
+863,67.0,28,29.99,6,Month-to-month,Credit Card,West,2019-01-24,0
+864,29.0,35,88.8,2,Month-to-month,,West,2019-12-23,1
+865,18.0,8,44.19,6,Month-to-month,Bank Transfer,East,2019-03-20,1
+866,61.0,16,111.11,0,Two year,Credit Card,South,2020-09-25,0
+867,22.0,36,103.83,2,Two year,Debit Card,South,2021-12-21,0
+868,47.0,30,90.94,0,Month-to-month,Bank Transfer,South,2020-12-16,1
+869,47.0,18,114.88,1,Two year,,West,2019-11-28,0
+870,34.0,2,23.14,6,One year,Debit Card,East,2020-08-28,0
+871,65.0,49,93.62,1,One year,Bank Transfer,West,2022-05-09,0
+872,64.0,4,53.02,2,Month-to-month,Bank Transfer,North,2019-12-22,0
+873,40.0,7,110.61,1,Two year,Bank Transfer,North,2019-01-03,0
+874,32.0,39,46.67,1,Month-to-month,Debit Card,South,2023-05-19,0
+875,54.0,13,92.49,4,Two year,Bank Transfer,West,2018-12-08,0
+876,38.0,31,107.76,5,One year,Debit Card,North,2023-01-03,0
+877,31.0,71,24.17,3,One year,Electronic Check,North,2023-02-19,0
+878,19.0,63,59.76,1,One year,Bank Transfer,West,2018-10-31,0
+879,28.0,56,96.23,2,Month-to-month,Electronic Check,East,2020-02-03,1
+880,68.0,42,65.49,3,Month-to-month,Credit Card,West,2021-10-29,0
+881,56.0,61,46.73,3,Month-to-month,Bank Transfer,West,2023-05-28,0
+882,55.0,42,41.98,3,Month-to-month,Credit Card,East,2020-03-26,0
+883,51.0,56,33.15,3,Month-to-month,Credit Card,South,2018-04-22,0
+884,55.0,36,105.71,2,One year,Credit Card,South,2020-05-27,0
+885,67.0,68,77.54,3,Two year,Electronic Check,South,2020-10-26,0
+886,51.0,7,27.64,5,Month-to-month,Debit Card,East,2020-07-18,1
+887,35.0,54,58.26,0,Month-to-month,Electronic Check,North,2019-12-04,0
+888,47.0,1,56.77,1,Month-to-month,Electronic Check,East,2020-04-25,0
+889,32.0,44,38.17,3,Month-to-month,Credit Card,West,2020-08-01,0
+890,44.0,45,63.55,1,Month-to-month,Bank Transfer,East,2018-10-06,0
+891,68.0,47,53.21,0,One year,Debit Card,North,2019-01-17,0
+892,51.0,13,54.18,1,Month-to-month,Credit Card,North,2023-02-19,0
+893,69.0,22,93.9,3,One year,Debit Card,West,2018-01-13,0
+894,55.0,21,42.33,3,Month-to-month,Electronic Check,South,2018-10-30,0
+895,50.0,9,,3,Two year,Debit Card,North,2022-04-29,0
+896,41.0,26,77.06,2,One year,Debit Card,North,2022-06-29,0
+897,32.0,9,76.81,2,Two year,Bank Transfer,North,2018-06-09,0
+898,47.0,15,86.3,2,Two year,Credit Card,West,2018-06-03,0
+899,59.0,10,74.84,3,Two year,Debit Card,North,2020-01-24,0
+900,68.0,42,107.93,2,Two year,Debit Card,South,2018-06-30,0
+901,34.0,24,87.56,1,One year,Electronic Check,West,2022-03-30,0
+902,22.0,49,74.7,2,Month-to-month,Electronic Check,South,2021-04-18,0
+903,46.0,26,102.98,3,Month-to-month,Debit Card,North,2019-01-12,1
+904,21.0,37,80.61,1,Month-to-month,Credit Card,North,2023-01-02,1
+905,27.0,68,49.11,3,One year,,South,2020-02-15,0
+906,34.0,50,40.71,1,Month-to-month,Debit Card,West,2021-04-06,0
+907,27.0,24,35.23,1,Two year,Bank Transfer,West,2021-05-22,0
+908,34.0,19,109.95,0,Two year,Credit Card,South,2021-03-19,0
+909,37.0,60,91.01,1,Month-to-month,Bank Transfer,North,2018-01-16,1
+910,41.0,39,,1,Month-to-month,Credit Card,East,2021-01-19,1
+911,22.0,18,80.33,0,Two year,Credit Card,South,2021-02-17,0
+912,51.0,19,67.34,0,Month-to-month,Credit Card,South,2023-06-03,0
+913,23.0,36,25.97,1,One year,Bank Transfer,South,2018-09-10,0
+914,19.0,55,87.16,1,Month-to-month,Bank Transfer,North,2020-12-19,1
+915,30.0,69,78.22,2,One year,Bank Transfer,West,2021-07-13,0
+916,60.0,47,119.02,0,Month-to-month,Electronic Check,North,2021-12-03,1
+917,60.0,49,43.92,2,Two year,Bank Transfer,South,2018-01-31,0
+918,65.0,33,73.07,0,Month-to-month,,North,2020-11-10,0
+919,28.0,21,85.1,2,Month-to-month,Electronic Check,North,2020-01-01,1
+920,68.0,22,84.46,4,Month-to-month,Electronic Check,South,2022-06-05,1
+921,64.0,48,76.13,0,Month-to-month,Debit Card,North,2018-10-16,0
+922,40.0,37,97.69,1,Two year,Debit Card,East,2022-04-16,0
+923,33.0,15,40.5,3,One year,Debit Card,North,2019-05-13,0
+924,48.0,35,92.56,3,Month-to-month,Electronic Check,North,2022-11-05,1
+925,28.0,71,81.97,0,Month-to-month,Electronic Check,West,2022-02-06,1
+926,33.0,32,109.61,1,Month-to-month,Credit Card,West,2021-11-29,1
+927,25.0,11,104.72,3,One year,Electronic Check,South,2019-07-02,0
+928,21.0,10,51.51,1,One year,Debit Card,South,2020-08-18,0
+929,57.0,57,47.62,4,Month-to-month,Electronic Check,West,2018-05-12,1
+930,21.0,25,118.17,0,One year,Electronic Check,East,2021-09-09,0
+931,42.0,2,72.73,2,One year,Credit Card,North,2020-05-07,0
+932,,64,110.64,0,Two year,Electronic Check,East,2021-03-01,0
+933,49.0,35,36.39,1,Two year,Bank Transfer,East,2019-06-05,0
+934,20.0,7,,2,One year,Credit Card,West,2018-01-30,0
+935,44.0,18,100.99,0,One year,Electronic Check,South,2019-09-19,0
+936,46.0,67,114.74,4,Month-to-month,Electronic Check,North,2021-08-17,1
+937,,42,53.73,2,One year,Credit Card,South,2018-01-04,0
+938,,39,92.5,2,Month-to-month,Electronic Check,East,2021-09-10,1
+939,,41,73.88,0,Month-to-month,Debit Card,East,2019-05-24,0
+940,,24,26.06,2,Month-to-month,Bank Transfer,South,2021-06-14,0
+941,38.0,60,89.0,2,One year,Bank Transfer,South,2022-04-08,0
+942,22.0,46,89.01,0,Month-to-month,Debit Card,West,2018-01-16,0
+943,35.0,19,113.06,0,Month-to-month,Electronic Check,South,2022-04-07,1
+944,45.0,68,69.73,1,Month-to-month,Electronic Check,South,2020-09-23,0
+945,59.0,42,43.03,3,Month-to-month,Bank Transfer,West,2022-05-27,0
+946,39.0,32,24.46,1,Month-to-month,Electronic Check,South,2023-01-14,0
+947,38.0,39,61.56,4,One year,Bank Transfer,East,2022-01-09,0
+948,23.0,36,50.19,0,One year,,South,2022-03-07,0
+949,18.0,36,96.11,2,Month-to-month,Debit Card,North,2020-08-13,1
+950,22.0,3,55.43,3,Two year,Bank Transfer,East,2021-06-07,0
+951,58.0,8,114.91,3,One year,Electronic Check,West,2021-02-04,0
+952,29.0,70,116.23,2,Month-to-month,Electronic Check,East,2022-10-10,0
+953,43.0,41,82.09,0,One year,Credit Card,West,2021-11-13,0
+954,63.0,68,112.87,2,Two year,Electronic Check,North,2022-10-10,0
+955,51.0,13,96.09,1,Month-to-month,Credit Card,North,2018-09-20,1
+956,66.0,49,,3,Month-to-month,Bank Transfer,East,2022-05-06,0
+957,31.0,60,38.03,3,Two year,Electronic Check,South,2020-12-24,0
+958,43.0,2,65.86,4,One year,Debit Card,East,2018-09-22,0
+959,62.0,60,76.09,2,Month-to-month,,East,2021-09-23,0
+960,44.0,5,106.4,1,Month-to-month,Debit Card,North,2021-08-17,1
+961,26.0,44,,2,Month-to-month,Bank Transfer,West,2019-01-13,0
+962,43.0,27,109.77,1,Two year,Bank Transfer,East,2021-04-13,0
+963,64.0,32,87.43,1,Month-to-month,Credit Card,South,2020-08-20,1
+964,39.0,21,,3,Month-to-month,Debit Card,North,2021-03-21,0
+965,64.0,8,119.5,1,One year,Credit Card,East,2019-04-21,0
+966,47.0,50,72.72,1,Month-to-month,Credit Card,East,2021-07-13,0
+967,60.0,67,59.19,4,Month-to-month,,South,2018-11-25,1
+968,65.0,44,85.91,3,Month-to-month,Electronic Check,East,2023-06-20,0
+969,34.0,58,30.89,3,One year,Debit Card,East,2023-01-14,0
+970,43.0,3,83.65,1,Month-to-month,Bank Transfer,East,2021-04-01,1
+971,,70,69.82,4,One year,Electronic Check,East,2019-03-14,0
+972,18.0,2,60.67,2,Month-to-month,Bank Transfer,South,2021-09-28,0
+973,25.0,44,115.3,2,Month-to-month,Credit Card,East,2021-10-22,1
+974,66.0,2,72.25,1,Month-to-month,Credit Card,East,2022-01-28,0
+975,52.0,35,41.91,4,Month-to-month,Credit Card,East,2022-11-09,1
+976,69.0,30,65.9,1,One year,Credit Card,North,2021-05-07,0
+977,32.0,8,111.94,4,Month-to-month,Debit Card,South,2022-03-04,1
+978,64.0,22,37.61,3,One year,Credit Card,North,2018-01-16,0
+979,39.0,44,41.4,2,Month-to-month,,North,2023-01-19,0
+980,31.0,58,21.3,1,Two year,Credit Card,South,2021-08-12,0
+981,43.0,36,21.42,1,One year,Bank Transfer,North,2020-05-17,0
+982,45.0,69,102.94,1,One year,Electronic Check,North,2019-05-26,0
+983,40.0,31,93.21,5,Month-to-month,Bank Transfer,North,2022-12-17,1
+984,31.0,47,55.5,2,Month-to-month,Bank Transfer,South,2020-09-10,0
+985,41.0,55,89.83,0,Month-to-month,Debit Card,East,2021-06-16,1
+986,19.0,62,59.52,2,Two year,Debit Card,West,2019-08-04,0
+987,62.0,30,115.29,6,Month-to-month,Bank Transfer,West,2021-08-17,1
+988,43.0,55,,0,One year,Bank Transfer,South,2018-01-06,0
+989,31.0,16,59.28,3,One year,Credit Card,West,2021-05-28,0
+990,68.0,12,105.42,0,Month-to-month,Electronic Check,South,2020-10-15,0
+991,24.0,17,97.31,1,One year,Credit Card,South,2022-11-25,0
+992,20.0,16,51.0,1,One year,,West,2022-01-16,0
+993,64.0,12,43.2,0,One year,Debit Card,North,2021-12-27,0
+994,40.0,8,65.82,3,Month-to-month,,East,2020-03-17,0
+995,63.0,3,98.13,2,Month-to-month,Electronic Check,West,2023-03-09,1
+996,60.0,16,116.02,2,Month-to-month,Bank Transfer,West,2021-11-10,1
+997,64.0,30,96.36,1,One year,Credit Card,West,2019-09-11,0
+998,62.0,23,105.52,2,One year,Debit Card,West,2021-08-11,0
+999,35.0,5,80.31,3,Month-to-month,Electronic Check,South,2021-02-15,1
+1000,55.0,65,103.54,2,Two year,,South,2019-02-09,0
+1001,52.0,30,,0,Month-to-month,Electronic Check,East,2022-08-31,1
+1002,68.0,21,57.7,4,Two year,Electronic Check,East,2020-09-23,0
+1003,32.0,70,75.2,2,Two year,Electronic Check,West,2022-11-22,0
+1004,42.0,22,100.48,2,Two year,Credit Card,West,2019-08-17,0
+1005,54.0,32,24.61,3,One year,Credit Card,West,2019-07-20,0
+1006,45.0,33,100.81,1,Month-to-month,Credit Card,East,2020-01-22,1
+1007,27.0,16,37.79,3,Month-to-month,Electronic Check,West,2023-03-17,0
+1008,56.0,38,71.47,0,One year,Electronic Check,North,2018-01-12,0
+1009,34.0,14,100.83,0,Month-to-month,Debit Card,East,2021-05-17,1
+1010,56.0,36,45.38,2,Month-to-month,Bank Transfer,North,2018-06-14,0
+1011,39.0,23,44.58,5,One year,Credit Card,West,2020-05-27,0
+1012,43.0,66,,1,Month-to-month,Electronic Check,South,2021-08-10,0
+1013,61.0,2,109.46,3,Two year,Debit Card,North,2023-04-19,0
+1014,42.0,65,20.04,1,One year,Debit Card,East,2022-03-23,0
+1015,34.0,67,,0,One year,Debit Card,North,2018-03-19,0
+1016,30.0,52,35.38,4,One year,Credit Card,East,2021-12-28,0
+1017,37.0,62,,1,Two year,Credit Card,West,2022-05-20,0
+1018,42.0,23,115.48,3,One year,Bank Transfer,North,2019-09-06,0
+1019,21.0,26,69.47,0,One year,Debit Card,South,2023-06-10,0
+1020,27.0,68,71.27,1,Month-to-month,Credit Card,North,2020-05-18,0
+1021,20.0,55,68.15,0,Two year,Debit Card,South,2020-03-22,0
+1022,58.0,6,83.54,3,One year,Electronic Check,East,2022-12-28,0
+1023,62.0,35,29.07,1,Month-to-month,Debit Card,West,2022-09-03,0
+1024,35.0,22,23.26,1,Month-to-month,Bank Transfer,West,2021-01-05,0
+1025,64.0,43,25.77,3,One year,Credit Card,South,2020-12-07,0
+1026,53.0,15,64.44,2,Month-to-month,Electronic Check,East,2020-02-06,0
+1027,64.0,60,47.55,6,Two year,Credit Card,West,2018-03-23,0
+1028,39.0,12,82.2,4,Two year,,East,2023-04-03,0
+1029,51.0,49,119.24,1,Month-to-month,Debit Card,South,2022-10-11,0
+1030,64.0,42,58.63,1,One year,Debit Card,South,2018-07-28,0
+1031,25.0,38,77.38,3,Month-to-month,Bank Transfer,North,2022-01-08,0
+1032,57.0,45,61.56,2,One year,Bank Transfer,West,2023-06-18,0
+1033,66.0,35,104.73,1,Month-to-month,Electronic Check,West,2022-06-08,1
+1034,61.0,30,110.22,2,One year,Bank Transfer,North,2019-06-06,0
+1035,36.0,30,107.74,0,Month-to-month,Bank Transfer,South,2020-11-18,0
+1036,,6,117.44,2,Month-to-month,Bank Transfer,South,2021-08-20,1
+1037,58.0,67,22.75,4,Month-to-month,Bank Transfer,South,2020-09-20,0
+1038,54.0,7,103.98,3,Month-to-month,Debit Card,South,2019-04-10,0
+1039,23.0,52,95.18,2,Month-to-month,Bank Transfer,East,2022-03-06,1
+1040,69.0,14,42.87,1,Month-to-month,Debit Card,West,2022-01-09,0
+1041,43.0,15,115.63,1,Month-to-month,Debit Card,West,2019-09-20,1
+1042,51.0,21,34.82,0,Two year,Credit Card,South,2022-02-22,0
+1043,62.0,35,87.95,0,One year,Debit Card,South,2020-02-20,0
+1044,23.0,66,42.49,3,Two year,Debit Card,South,2021-12-22,0
+1045,54.0,2,63.14,0,Two year,Bank Transfer,West,2019-07-13,0
+1046,50.0,35,91.92,3,Month-to-month,Debit Card,West,2021-10-14,1
+1047,39.0,20,76.33,2,Month-to-month,Electronic Check,South,2020-08-17,0
+1048,38.0,10,62.75,0,Month-to-month,Bank Transfer,East,2018-04-01,0
+1049,23.0,25,52.63,4,Two year,Bank Transfer,North,2020-12-12,0
+1050,23.0,66,103.97,0,Two year,Bank Transfer,North,2022-10-20,0
+1051,65.0,25,34.38,2,Month-to-month,Credit Card,North,2020-05-09,0
+1052,21.0,54,,2,Month-to-month,Bank Transfer,West,2022-06-01,0
+1053,47.0,33,110.38,3,Month-to-month,Debit Card,West,2021-05-12,1
+1054,28.0,36,104.58,5,One year,Electronic Check,North,2019-07-10,0
+1055,47.0,14,60.09,1,One year,Bank Transfer,North,2018-06-05,0
+1056,48.0,65,96.31,0,Month-to-month,Bank Transfer,East,2018-01-02,1
+1057,,54,102.32,2,Month-to-month,Electronic Check,West,2021-10-12,1
+1058,26.0,52,108.89,1,One year,Bank Transfer,West,2020-04-04,0
+1059,20.0,3,74.45,3,One year,Credit Card,North,2022-05-12,0
+1060,68.0,41,40.45,5,Month-to-month,Debit Card,East,2020-03-12,1
+1061,48.0,6,45.53,2,Two year,Electronic Check,East,2020-09-09,0
+1062,57.0,25,49.57,1,Month-to-month,Electronic Check,North,2020-12-17,0
+1063,54.0,13,79.38,2,One year,Credit Card,North,2021-07-01,0
+1064,53.0,8,23.28,1,One year,Debit Card,West,2021-04-18,0
+1065,,21,83.6,1,Month-to-month,Credit Card,North,2019-05-08,1
+1066,48.0,68,56.44,1,Month-to-month,Debit Card,South,2019-10-31,0
+1067,23.0,25,49.52,3,One year,Credit Card,East,2020-11-24,0
+1068,19.0,68,107.95,2,Month-to-month,,North,2018-03-16,1
+1069,37.0,45,66.0,1,One year,,South,2020-08-01,0
+1070,45.0,60,29.51,0,One year,Electronic Check,East,2021-08-05,0
+1071,28.0,12,102.67,1,One year,Electronic Check,South,2019-01-06,0
+1072,21.0,32,24.76,1,Month-to-month,Electronic Check,South,2019-08-10,0
+1073,32.0,13,92.67,0,Month-to-month,Credit Card,North,2018-11-25,1
+1074,23.0,31,97.39,2,One year,Electronic Check,East,2019-08-13,0
+1075,66.0,20,55.26,1,Month-to-month,Electronic Check,South,2022-11-26,0
+1076,47.0,18,102.48,1,One year,Bank Transfer,West,2020-02-16,0
+1077,55.0,60,71.57,2,One year,Bank Transfer,East,2018-10-31,0
+1078,68.0,63,,2,Month-to-month,Debit Card,West,2019-08-02,0
+1079,19.0,6,24.54,3,One year,Debit Card,North,2018-08-09,0
+1080,32.0,32,49.0,4,Month-to-month,Debit Card,West,2020-09-05,1
+1081,28.0,43,113.1,1,Month-to-month,Credit Card,East,2021-04-02,1
+1082,25.0,2,59.18,2,Two year,,South,2022-02-12,0
+1083,43.0,60,74.67,0,Two year,Credit Card,South,2022-01-18,0
+1084,68.0,23,73.2,2,Month-to-month,Credit Card,East,2019-01-10,0
+1085,,31,79.04,2,Two year,Debit Card,South,2021-05-28,0
+1086,61.0,5,26.13,2,Month-to-month,Debit Card,West,2022-09-04,0
+1087,22.0,34,56.22,2,Month-to-month,Credit Card,South,2021-07-01,0
+1088,23.0,10,92.31,0,Month-to-month,Bank Transfer,South,2022-10-12,1
+1089,43.0,2,40.06,3,Two year,Electronic Check,West,2018-07-07,0
+1090,21.0,11,40.36,2,Month-to-month,,West,2021-04-29,0
+1091,36.0,50,,2,Month-to-month,Electronic Check,West,2021-11-13,0
+1092,37.0,31,63.75,3,Month-to-month,Bank Transfer,North,2021-05-23,0
+1093,50.0,56,108.27,1,One year,Credit Card,West,2021-10-30,0
+1094,37.0,9,25.19,0,Month-to-month,Debit Card,West,2021-01-14,0
+1095,66.0,21,39.11,3,Month-to-month,Credit Card,North,2019-04-19,0
+1096,29.0,28,51.01,0,Month-to-month,Credit Card,South,2022-06-30,0
+1097,64.0,62,,1,One year,Debit Card,West,2020-04-23,0
+1098,18.0,7,84.06,5,One year,Bank Transfer,East,2023-01-06,0
+1099,43.0,16,61.59,1,Month-to-month,Electronic Check,West,2019-06-15,0
+1100,31.0,4,95.91,1,One year,Electronic Check,West,2020-12-06,0
+1101,55.0,4,80.96,5,Month-to-month,Credit Card,North,2020-12-24,1
+1102,54.0,40,109.6,5,Two year,Bank Transfer,East,2020-08-20,0
+1103,28.0,17,101.8,4,Month-to-month,Electronic Check,South,2019-04-20,1
+1104,53.0,52,45.28,2,Month-to-month,Bank Transfer,South,2021-03-15,0
+1105,30.0,52,47.14,0,Month-to-month,Debit Card,East,2020-08-03,0
+1106,60.0,36,32.54,1,One year,Credit Card,West,2022-12-27,0
+1107,20.0,38,53.7,5,Two year,Credit Card,North,2021-11-06,0
+1108,50.0,50,119.95,3,Month-to-month,Bank Transfer,East,2020-12-25,1
+1109,,63,60.58,0,One year,Electronic Check,East,2019-06-01,0
+1110,67.0,63,42.05,1,Month-to-month,Bank Transfer,South,2021-01-21,0
+1111,27.0,62,96.25,1,Month-to-month,Debit Card,North,2023-03-04,1
+1112,22.0,7,74.25,2,Month-to-month,,East,2019-03-02,0
+1113,40.0,27,34.96,4,One year,Electronic Check,North,2022-01-31,0
+1114,27.0,14,58.07,2,One year,Bank Transfer,West,2021-01-22,0
+1115,61.0,71,61.45,1,Month-to-month,Debit Card,South,2022-06-30,0
+1116,19.0,5,95.38,1,Month-to-month,Electronic Check,West,2018-05-13,1
+1117,30.0,55,22.07,3,Month-to-month,Credit Card,North,2021-12-28,0
+1118,57.0,2,46.9,2,Month-to-month,Debit Card,West,2021-09-26,0
+1119,19.0,62,71.76,3,Month-to-month,Electronic Check,South,2018-11-10,0
+1120,37.0,21,46.88,2,Month-to-month,Bank Transfer,North,2019-08-14,0
+1121,18.0,21,82.84,1,Month-to-month,Electronic Check,East,2021-05-20,0
+1122,54.0,10,68.19,0,Month-to-month,Credit Card,West,2022-03-24,0
+1123,26.0,58,56.17,4,Month-to-month,Debit Card,South,2020-10-05,1
+1124,34.0,39,114.92,5,Month-to-month,Electronic Check,East,2018-06-08,1
+1125,26.0,5,83.22,3,Month-to-month,Credit Card,South,2021-07-15,1
+1126,28.0,65,32.99,0,One year,Electronic Check,North,2019-10-23,0
+1127,32.0,13,76.01,1,Month-to-month,Electronic Check,North,2023-03-01,0
+1128,41.0,53,98.07,4,One year,Debit Card,West,2023-06-05,0
+1129,55.0,45,90.85,3,Month-to-month,Bank Transfer,South,2022-06-15,1
+1130,52.0,32,,2,Month-to-month,Bank Transfer,South,2020-01-18,0
+1131,47.0,36,117.24,2,Month-to-month,Credit Card,South,2022-02-06,0
+1132,48.0,60,64.88,2,Month-to-month,Credit Card,North,2020-03-11,0
+1133,66.0,11,,4,Month-to-month,Credit Card,West,2019-02-14,1
+1134,22.0,63,38.02,1,Two year,Debit Card,South,2022-02-06,0
+1135,61.0,21,29.82,0,Month-to-month,Bank Transfer,South,2021-10-11,0
+1136,67.0,52,100.35,1,Month-to-month,Credit Card,East,2019-11-11,1
+1137,31.0,55,32.2,5,One year,Credit Card,South,2021-05-01,0
+1138,28.0,26,32.51,4,Month-to-month,Electronic Check,West,2022-09-19,1
+1139,26.0,68,105.05,1,One year,Electronic Check,East,2021-07-18,0
+1140,51.0,34,54.46,4,Month-to-month,Credit Card,East,2018-04-24,1
+1141,29.0,52,23.09,5,Two year,Electronic Check,East,2020-06-15,0
+1142,52.0,52,25.19,0,Month-to-month,Electronic Check,North,2022-03-27,0
+1143,52.0,29,34.22,1,Month-to-month,Electronic Check,East,2020-12-14,0
+1144,18.0,38,41.34,2,Two year,Debit Card,South,2022-11-29,0
+1145,,42,86.51,1,Month-to-month,Credit Card,North,2018-03-06,1
+1146,39.0,21,35.73,4,Month-to-month,Credit Card,North,2019-11-15,1
+1147,46.0,42,31.89,2,One year,Electronic Check,North,2021-07-19,0
+1148,25.0,13,96.47,2,Month-to-month,Debit Card,North,2022-03-06,1
+1149,28.0,64,87.11,3,Month-to-month,Electronic Check,North,2022-08-13,1
+1150,58.0,17,63.53,1,One year,Debit Card,North,2021-10-17,0
+1151,54.0,9,74.93,1,Month-to-month,,North,2018-05-26,0
+1152,31.0,41,51.2,0,One year,Electronic Check,East,2020-07-31,0
+1153,47.0,1,,4,Two year,Credit Card,West,2021-05-17,0
+1154,52.0,2,70.67,2,Month-to-month,Debit Card,South,2021-08-02,0
+1155,38.0,60,58.72,1,Month-to-month,Bank Transfer,South,2020-10-30,0
+1156,54.0,48,110.66,2,Month-to-month,,East,2020-01-09,1
+1157,22.0,29,21.61,1,Month-to-month,Bank Transfer,East,2018-07-05,0
+1158,36.0,10,98.22,1,Two year,,North,2022-05-17,0
+1159,31.0,58,32.44,0,Month-to-month,Credit Card,West,2022-06-09,0
+1160,43.0,60,99.75,0,Month-to-month,Electronic Check,North,2022-01-27,1
+1161,21.0,21,81.59,2,One year,Bank Transfer,East,2021-03-03,0
+1162,42.0,28,104.33,2,Two year,Debit Card,North,2020-04-14,0
+1163,62.0,34,29.75,7,Month-to-month,Credit Card,South,2020-03-19,0
+1164,59.0,8,75.9,3,Month-to-month,Bank Transfer,South,2018-06-20,0
+1165,42.0,59,70.11,3,One year,Debit Card,North,2018-08-01,0
+1166,35.0,49,90.62,5,Two year,Bank Transfer,West,2023-06-20,1
+1167,57.0,17,73.43,3,One year,Debit Card,North,2022-04-03,0
+1168,25.0,60,74.07,1,Month-to-month,Debit Card,North,2023-01-24,0
+1169,56.0,45,62.96,2,Month-to-month,Debit Card,West,2022-03-06,0
+1170,57.0,69,50.88,0,Month-to-month,Debit Card,West,2022-05-15,0
+1171,31.0,32,68.23,2,Month-to-month,Bank Transfer,West,2022-06-12,0
+1172,49.0,44,31.85,3,Two year,Bank Transfer,South,2018-01-27,0
+1173,68.0,65,116.15,5,Two year,Electronic Check,North,2020-10-10,0
+1174,55.0,8,91.44,2,Two year,Bank Transfer,East,2020-12-27,0
+1175,50.0,43,115.25,1,Month-to-month,Bank Transfer,West,2020-02-29,1
+1176,40.0,1,42.67,3,One year,,West,2019-02-12,0
+1177,32.0,51,107.93,0,One year,Bank Transfer,North,2022-04-25,0
+1178,50.0,24,100.88,3,One year,Debit Card,East,2021-02-06,0
+1179,42.0,24,87.72,3,Month-to-month,Credit Card,North,2018-03-15,1
+1180,34.0,17,82.5,5,Month-to-month,Credit Card,North,2019-08-01,1
+1181,50.0,5,51.65,2,Two year,Electronic Check,West,2019-11-11,0
+1182,64.0,20,101.64,0,Month-to-month,Bank Transfer,West,2021-07-09,0
+1183,19.0,21,70.15,1,Two year,Bank Transfer,South,2021-10-23,0
+1184,31.0,58,27.09,3,Month-to-month,Electronic Check,East,2020-02-25,0
+1185,57.0,31,51.29,4,One year,Credit Card,East,2020-04-28,0
+1186,57.0,11,113.53,4,One year,Debit Card,West,2020-05-19,0
+1187,68.0,52,105.07,3,One year,Bank Transfer,West,2018-08-25,0
+1188,56.0,15,118.19,1,Month-to-month,Electronic Check,West,2019-12-28,1
+1189,68.0,7,82.8,0,Two year,Debit Card,East,2021-10-21,0
+1190,23.0,28,44.75,2,One year,Electronic Check,South,2021-08-02,0
+1191,23.0,51,36.28,3,Month-to-month,Electronic Check,East,2019-01-13,0
+1192,20.0,58,38.69,2,One year,Electronic Check,West,2019-10-23,0
+1193,24.0,5,21.98,1,Month-to-month,Credit Card,West,2020-04-09,0
+1194,68.0,5,59.07,3,Month-to-month,Credit Card,South,2020-06-24,0
+1195,25.0,8,39.14,1,Month-to-month,Electronic Check,North,2019-01-11,0
+1196,59.0,64,61.17,3,Two year,Bank Transfer,North,2019-09-11,0
+1197,69.0,10,113.5,3,Month-to-month,Debit Card,East,2019-10-15,1
+1198,32.0,38,63.05,4,One year,Bank Transfer,North,2021-01-04,0
+1199,64.0,8,107.8,2,Month-to-month,Credit Card,North,2020-10-29,1
+1200,46.0,25,80.55,1,Month-to-month,Debit Card,East,2018-07-15,0
